@@ -1,5 +1,6 @@
 #### Sistemas Expertos
-#### Enero 22, 2019
+#### Enero 22, 2019  
+#### Apunte
 
 # REGLAS DE PRODUCCION
 Se trata de un método procidemental de representación del conocimiento, que pone enfasis en representar y soportar las relaciones inferenciales en contraposisicon a los metodos.
