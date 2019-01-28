@@ -4,7 +4,7 @@
 **Bilaterales.** Ambas partes adquieren obligaciones.
 
 ### Onerosos y Gratuitos
-**Onerosos.** Existen gravamenes y beneficios recíprocos entre las partes, y a la vez ambos emprenden una cierta cuota de sacrificio como es el caso de las compraventas.  
+**Onerosos.** Existen gravámenes y beneficios recíprocos entre las partes, y a la vez ambos emprenden una cierta cuota de sacrificio como es el caso de las compraventas.  
 **Gratuitos.** Son aquellos que el beneficio es para una sola de las partes, dejando a la otra las obligaciones
 
 ### Principales y Accesorios
@@ -30,8 +30,8 @@
 # Elementos del contratos
 
 Se divide en elementos esenciales que son aquellos si los cuales el contrato no tiene valor o degenera en otro diferente.  
-**Capacidad.** DivididaCapacidad de goze y capacidad de ejercicio. Es decir la actitud juridica para ejercer los derechos y contraer obligaciones sin representación de terceros.  
-**Consentimiento.** Se manifiesta por la concurrencia de la oferta de la aceptaciön sobre la cosa y la causa que han de constituir el contrato.  
+**Capacidad.** Dividida capacidad de goce y capacidad de ejercicio. Es decir la actitud jurídica para ejercer los derechos y contraer obligaciones sin representación de terceros.  
+**Consentimiento.** Se manifiesta por la concurrencia de la oferta de la aceptación sobre la cosa y la causa que han de constituir el contrato.  
 **Objeto.** pueden ser objeto de contratos todas las cosas que no están fuera del comercio humano.  
 **Causa.** En los contratos Onerosos o de compra-venta se entiende por causa para cada parte contratante la entrega o promesa de una cosa o servicio por la otra parte.  
 **Forma.** En algunos contratos es posible que se exija una forma especifica de celebración, por ejemplo la forma escrita, firma a ante un notario o ante testigos.  
@@ -42,18 +42,18 @@ Se divide en elementos esenciales que son aquellos si los cuales el contrato no 
 
 **Innominados.** Es decir, no están regulados ni nombrados por la ley, pero si por el código civil.  
 **Bilateral.** Acuerdo de ambas partes.  
-**Onerosos.** Es aquel en donde existen benficios, gravámenes reciprocos.
+**Onerosos.** Es aquel en donde existen beneficios, gravámenes recíprocos.
 **Principal.** Existe por si mismo.  
 **Son de adición.** Las clausulas son redactadas por una sola de las partes.
 
 # Clausulas del contrato
 
 **Objeto.** Es decir las modalidades de los derechos y obligaciones respecto a los bienes o servicios informáticos.  
-**Duración y rescicion.** Es decir que el termino de vigencia del contrato podrá verse interrumpido en caso de transgreción de clausulas por alguna de las partes.  
+**Duración y rescicion.** Es decir que el termino de vigencia del contrato podrá verse interrumpido en caso de transgresión de clausulas por alguna de las partes.  
 **Precio.** Es caracterizado por ser justo, verdadero, y en dinero.  
-**Facturación y pago.** Estos tendran lugar de acuerdo con las consignas particulares establecidas por mutuo acuerdo.  
+**Facturación y pago.** Estos tendrán lugar de acuerdo con las consignas particulares establecidas por mutuo acuerdo.  
 **Control, supervisión y acceso.** Recaen en la responsabilidad de los usuarios a fin de que las actividades informáticas se den en la condiciones mas favorables sin injerencia interna o externa inadecuadas.  
-**Asistencia e información.** Todo esto a fin de que las actividades informáticas se den en las condiciones mas favorables y en términos mas atingentes. Evitando de esta manera actitudes negligentes.  
+**Asistencia e información.** Todo esto a fin de que las actividades informáticas se den en las condiciones mas favorables y en términos mas antingentes. Evitando de esta manera actitudes negligentes.  
 **Protección material de la información.** Es aquella información propiedad del usuario que este bajo resguardo del proveedor a fin de desarrollar un programa.  
 **Secreto y confidencialidad.**
 **Responsabilidad y garantías.** Aquellas obligaciones inherentes a la firma de un contrato.  
