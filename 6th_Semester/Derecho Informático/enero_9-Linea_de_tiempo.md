@@ -1,7 +1,0 @@
-
-# Antecedentes del derecho
-- **1949 ->** Primer alucinó al derecho, estableciendo la relación *Derecho-Cibernética*.
-- **1959 ->** EUA, la universidad de Pitsburg comienza la recuperación automatizada de  documentos jurídicos, por John Horty. El método es presentado a abogados posteriormente. se complementa el sistema legal automatizado de búsqueda de información.
-- **1966 ->** Uso de funciones u aplicaciones informáticas (Europa) e investigaciones en derecho con elementos de la cibernetica.
-- **1968 ->** 50 estados de Estados Unidos usan el sistema de automatización de documentos. Mario L. propone sustituir el termino *juriometria* por *iuscibernetica*.
-- **1970 ->** Francia, Suecia, Dinamarca, entre otros elaboran los primeros elementos legislativos que, protegen al individuo con apoyo   

@@ -1,5 +1,5 @@
-Lunes 28, enero 2019  
-Derecho informático
+<small>*Lunes 28, enero 2019 - Derecho informático  
+Apunte*</small>
 
 # Convenios
 Se trata de un acuerdo voluntario que no se encuentra sujeto a la ley, es decir es un pacto o acuerdo de voluntades entre 2 o mas partes respecto a un determinado tema. Se pude llegar a este acuerdo de manera verbal o escrita sin ser requerido en un marco legal.

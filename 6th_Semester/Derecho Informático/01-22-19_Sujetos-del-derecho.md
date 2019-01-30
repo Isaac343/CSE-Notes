@@ -1,5 +1,6 @@
-Derecho informático
-Enero 22, 2019
+<small>*Derecho informático - Martes 22, enero 2019  
+Apunte*</small>
+
 
 # **Sujetos del derecho y su clasificación**
 

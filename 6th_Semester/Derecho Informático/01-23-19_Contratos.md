@@ -1,6 +1,7 @@
 Miércoles 23, enero 2019
 # Clasificaciones de contratos
 
+### Unilaterales y Bilaterales
 **Unilaterales.** Se da cuando una de las partes involucradas adquiere obligaciones.  
 **Bilaterales.** Ambas partes adquieren obligaciones.
 
@@ -43,7 +44,7 @@ Se divide en elementos esenciales que son aquellos si los cuales el contrato no 
 
 **Innominados.** Es decir, no están regulados ni nombrados por la ley, pero si por el código civil.  
 **Bilateral.** Acuerdo de ambas partes.  
-**Onerosos.** Es aquel en donde existen beneficios, gravámenes recíprocos.
+**Onerosos.** Es aquel en donde existen beneficios, gravámenes recíprocos.  
 **Principal.** Existe por si mismo.  
 **Son de adición.** Las clausulas son redactadas por una sola de las partes.
 
