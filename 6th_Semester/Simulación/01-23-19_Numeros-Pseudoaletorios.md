@@ -1,4 +1,6 @@
-Miércoles 23, enero 2019
+<small>*Simulación - Miércoles 23, enero 2019  
+Apunte*</small>
+
 # **Unidad II -Número pseudoaleatorios**
 
 Un número pseudoaleatorio es un número generado en un proceso que parece producir números al azar pero no es así realmente.
@@ -30,7 +32,8 @@ Es preciso contar con un conjunto **ri** grande esto con la finalidad de simular
 Los algoritmos determínisticos para generar números pseudoaleatorios se dividen en *no congurenciales* y *congurenciales*, estos a su vez se dividen en *lineales* y *no lineales*.
 
 ## Algoritmos no congruenciales
-**Algoritmo de cuadrados medios.** Propuesto en la década de los 40 del siglo XX por Von Neumann y metrópolis, este algoritmo requiere un número entero, llamado semilla, con **D** dígitos, este es elevado al cuadrado para seleccionar del resultado los **D** dígitos del centro; el primer número $r_i$ se determina simplemente anteponiendo el "0" a esos dígitos. Para obtener el segundo $r_i$ se sigue el mismo procedimiento, solo que ahora se eleva al cuadrado los D dígitos del centro este método se repite hasta obtener **n** números ri.  
+### Algoritmo de cuadrados medios.
+Propuesto en la década de los 40 del siglo XX por Von Neumann y metrópolis, este algoritmo requiere un número entero, llamado semilla, con **D** dígitos, este es elevado al cuadrado para seleccionar del resultado los **D** dígitos del centro; el primer número $r_i$ se determina simplemente anteponiendo el "0" a esos dígitos. Para obtener el segundo $r_i$ se sigue el mismo procedimiento, solo que ahora se eleva al cuadrado los D dígitos del centro este método se repite hasta obtener **n** números ri.  
 
 #### Pasos para generar números con el algoritmo de pasos medios
 1. Seleccionar semilla $(X_0)(D>3)$.
@@ -53,11 +56,51 @@ Los algoritmos determínisticos para generar números pseudoaleatorios se divide
 
 
 #### Tarea.
-Serie de números aleatorios con semilla 317, D = 4.
+Serie de números aleatorios con semilla 317, D = 3.
 | N° | $Y_n$ | $X_n$ | $R_n$ |
 | :- | :---- | :---- | :---- |
-| 01 | $Y_0 = (317)^2 = 100,489$ | $x_0 = 0049$ | $r_1 = 0.0049$ |
-| 02 | $Y_1 = (49)^2 = 2,401$ | $x_1 = 0240$ | $r_2 = 0.0240$ |
-| 03 | $Y_2 = (240)^2 = 57,600$ | $x_2 = 0576$ | $r_3 = 0.0576$ |
-| 04 | $Y_3 = (576)^2 = 331,776$ | $x_3 = 3177$ | $r_4 = 0.3177$ |
-| 05 | $Y_4 = (3177)^2 = 10,093,329$ | $x_4 = 0933$ | $r_5 = 0.0933$ |
+| 01 | $Y_0 = (317)^2 = 0,100,489$ | $x_0 = 004$ | $r_1 = 0.004$ |
+| 02 | $Y_1 = (4)^2 = 00,016$ | $x_1 = 001$ | $r_2 = 0.001$ |
+| 03 | $Y_2 = (1)^2 = 00,001$ | $x_2 = 000$ | $r_3 = 0.000$ |
+| 04 | $Y_3 = (0)^2 = 0$ | $x_3 = 0$ | $r_4 = 0.000$ |
+| 05 | $Y_4 = (0)^2 = 0$ | $x_4 = 0$ | $r_5 = 0.000$ |
+
+
+
+Martes 29, enero 2019
+
+### Algoritmo de productos medios
+La mecánica de generación de números pseudoaleatorios de este algoritmo no congruencial es similar a la del algoritmo de cuadrados medios.
+La diferencia entre ambos radica en que el algoritmo de productos medios requiere de 2 semillas ambas con $D$ dígitos, ademas, en lugar de elevarlas al cuadrado, las semillas se multiplican y del producto se seleccionan los $D$ dígitos de centro. A continuación se presentan con mas detalle los pasos del método para generar números.
+1. Seleccionar una semilla con $D$ dígitos mayor a 3.
+2. Seleccionar una semilla con $D$ dígitos mayor a 3.
+3. $Y_0 = X_0 + X_1$; Sea $X_2$ = los $D$ dígitos del cetro, y sea $r_i$  = 0.$D$ dígitos del centro.  
+<small> *Miércoles 30, enero 2019*</small>
+4. Sea $Y_i$ = $X_i * X_{i+1}$ y sea $X_{i+2} =$ los $D$ dígitos del centro. y sea $r_{i+2} = 0.D$ dígitos del centro.
+5. Repetir el paso 4 hasta obtener los $n$ números $r_i$ deseados.  
+*Nota: Si no es posible obtener los $D$ dígitos del centro, agregue 0s a la izquierda del número $r_i$.*
+
+Generar los primeros 5 números $r_i$ a partir de las semillas $X_0 = 5015$ y $X_1 = 5734$, siendo $D = 4$.
+
+| N° | $Y_n$ | $X_n$ | $r_n$ |
+| :- | :---- | :---- | :---- |
+| 01 | $Y_0 = (5015)*(5734) = 28,756,010$ | $X_2 = 7560$ | $r_1 = 0.7560$ |
+| 02 | $Y_1 = (5734)*(7560) = 43,349,049$ | $X_3 = 3490$ | $r_2 = 0.3490$ |
+| 03 | $Y_2 = (7560)*(3490) = 26,384,400$ | $X_4 = 3844$ | $r_3 = 0.3844$ |
+| 04 | $Y_3 = (3490)*(3844) = 13,425,560$ | $X_5 = 4255$ | $r_4 = 0.4255$ |
+| 05 | $Y_4 = (3844)*(4255) = 16,356,200$ | $X_6 = 3562$ | $r_5 = 0.3562$ |
+
+Ejercicio. Generar los primeros 5 números $R_i$ a partir de las semillas $X_0 = 36$ y $X_1 = 97$, con $D = 2$.
+
+| N° | $Y_n$ | $X_n$ | $r_n$ |
+| :- | :---- | :---- | :---- |
+| 01 | $Y_0 = (36)*(97) = 3,492$ | $X_2 = 49$ | $r_1 = 0.49$ |
+| 02 | $Y_1 = (97)*(49) = 4,753$ | $X_3 = 75$ | $r_2 = 0.75$ |
+| 03 | $Y_2 = (49)*(75) = 3675$ | $X_4 = 67$ | $r_3 = 0.67$ |
+| 04 | $Y_3 = (75)*(67) = 5025$ | $X_5 = 02$ | $r_4 = 0.02$ |
+| 05 | $Y_4 = (67)*(02) = 0,134$ | $X_6 = 13$ | $r_5 = 0.13$ |
+
+
+### Algoritmo de multiplicador constante
+Este algoritmo no congruencial es similar al algoritmo de productos medios. Los siguientes son los pasos necesarios para generar números pseudoaleatorios con el algoritmo multiplicador constante.  
+1. S 
