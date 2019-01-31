@@ -103,4 +103,38 @@ Ejercicio. Generar los primeros 5 números $R_i$ a partir de las semillas $X_0 =
 
 ### Algoritmo de multiplicador constante
 Este algoritmo no congruencial es similar al algoritmo de productos medios. Los siguientes son los pasos necesarios para generar números pseudoaleatorios con el algoritmo multiplicador constante.  
-1. S 
+1. Seleccionar una semilla $X_0$ con $D$ dígitos donde $D > 3$.
+2. Seleccionar una constante $(a)$ con $D$ dígitos donde $D > 3$.
+3. $Y_0 = a * X_0$, sea $X_1 =$ los $D$ dígitos del centro, $r_i = 0.D$ dígitos del centro.
+4. Sea $Y_i = a * X_i$; sea $X_{i+1} = $ los $D$ dígitos del centro, donde $i = 1, 2, 3, ..., n$.
+5. Repetir el paso 4 hasta obtener los $n$ números $r_i$ deseados.
+
+*Nota. Si no es posible obtener los $D$ dígitos del centro del número $Y_i$, agregue $0s$ a la izquierda del número $Y_i$.*
+
+Ejemplo. $X_0 = 5340$, $a = 2010$, $D=4$
+
+| N° | $Y_n = a * X_n$ | $X_n$ | $r_n$ |
+| :- | :---- | :---- | :---- |
+| 01 | $Y_0 = (2010)*(5340) = 10,733,400$ | $X_2 = 7334$ | $r_1 = 0.7334$ |
+| 02 | $Y_1 = (2010)*(7334) = 14,741,340$ | $X_3 = 7413$ | $r_2 = 0.7413$ |
+| 03 | $Y_2 = (2010)*(7413) = 14,900,130$ | $X_4 = 9001$ | $r_3 = 0.9001$ |
+| 04 | $Y_3 = (2010)*(9001) = 18,092,010$ | $X_5 = 0920$ | $r_4 = 0.0920$ |
+| 05 | $Y_4 = (2010)*(920) = 01,849,200$ | $X_6 = 8492$ | $r_5 = 0.8492$ |
+
+Ejercicio. Sea la semilla $X_0 = 9803$ y la constante $a = 6965$, considerando $D = 4$ dígitos.
+| N° | $Y_n = a * X_n$ | $X_n$ | $r_n$ |
+| :- | :---- | :---- | :---- |
+| 01 | $Y_0 = (6965)*(9830) = 68,465,950$ | $X_2 = 4659 $ | $r_1 = 0.4659$ |
+| 02 | $Y_1 = (6965)*(4659) = 32,449,935$ | $X_3 = 4499 $ | $r_2 = 0.4499$ |
+| 03 | $Y_2 = (6965)*(4499) =31,335,535$ | $X_4 = 3355 $ | $r_3 = 0.3355$ |
+| 04 | $Y_3 = (6965)*(3355) = 23,367,575$ | $X_5 = 3675 $ | $r_4 = 0.3675$ |
+| 05 | $Y_4 = (6965)*(3675) = 25,596,375$ | $X_6 = 5963$ | $r_5 = 0.5963$ |
+
+## Algoritmos congurenciales
+
+### Algoritmo lineal
+Este algoritmo congruencial fue propuesto por D.H. Lehmer en 1951. Según Law y Kelton, este algoritmo ha sido el mas usado. El algoritmo congruencial lineal genera una secuencia de números enteros por medio de la siguiente ecuación:
+$$
+X_{i+1} = (aX_i + C)  mod (M)
+$$
+donde; $X_0$ es la semilla, $X_0 > 0$ y debe ser entero. $a =$ constante multiplicativa, $a>0$ y debe ser entero.
