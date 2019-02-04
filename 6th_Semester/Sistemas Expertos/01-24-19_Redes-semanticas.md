@@ -68,17 +68,37 @@ Un nodo es la unión por arcos los cuales indican la relación que existe entre 
 <small>*Miércoles 30, enero 2019*</small>
 ### Tipos de redes semánticas
 **Mapas conceptuales.** Es una técnica usada para la representación grafica del conocimiento, es decir, es una red de conceptos. En la red los nodos representan los conceptos y los enlaces representan las relaciones entre conceptos.
-  - Elementos.
-    - Conceptos. Se entiende como concepto una regularidad en los acontecimientos o en los objetos que se designan mediante algún termino. Desde la perspectiva del individuo se pueden definir los conceptos como imágenes mentales que provocan en nosotros las palabras o signos con los que expresamos regularidades.
-    - Proposición. Es la formulación verbal de una idea, es decir es un indicador acerca de la comprensión de un sujeto respecto a un fenómeno o concepto.
-    - Palabras de enlace. Son las palabras que sirven para armar los conceptos y señalar el tipo de relación existente entre ambos. La palabra enlace cumple una función que es determinar la jerarquía conceptual y dar precisión a los conceptos.
-  - Características. Se identifica por 3 características principales
-    - Síntesis. Es el resumen que contiene lo mas importante o significativo de un mensaje , tema o texto.
-    - Jerarquía. No solo se trata del tamaño de las letras sino del orden en que aparecen. Las palabras con mayor importancia aparecerán en la parte superior.
-    - Impacto visual. No siempre hay que tomar como definitivo un mapa conceptual, mas bien debe ser tomado como un borrador para rehacerlo y mejorar su presentación.
-  - Como construir un mapa conceptual.
-    1. Seleccionar. Luego de leer un texto o seleccionar un tema concreto, es necesario seleccionar los conceptos a utilizar y nunca se deben de repetir mas de 1 concepto en una misma presentación.  
-    
+#### Elementos.
+- Conceptos. Se entiende como concepto una regularidad en los acontecimientos o en los objetos que se designan mediante algún termino. Desde la perspectiva del individuo se pueden definir los conceptos como imágenes mentales que provocan en nosotros las palabras o signos con los que expresamos regularidades.
+- Proposición. Es la formulación verbal de una idea, es decir es un indicador acerca de la comprensión de un sujeto respecto a un fenómeno o concepto.
+- Palabras de enlace. Son las palabras que sirven para armar los conceptos y señalar el tipo de relación existente entre ambos. La palabra enlace cumple una función que es determinar la jerarquía conceptual y dar precisión a los conceptos.
+- Características. Se identifica por 3 características principales
+  - Síntesis. Es el resumen que contiene lo mas importante o significativo de un mensaje , tema o texto.
+  - Jerarquía. No solo se trata del tamaño de las letras sino del orden en que aparecen. Las palabras con mayor importancia aparecerán en la parte superior.
+  - Impacto visual. No siempre hay que tomar como definitivo un mapa conceptual, mas bien debe ser tomado como un borrador para rehacerlo y mejorar su presentación.
+<small>*Jueves 31, enero 2019*</small>
+
+- Como construir un mapa conceptual.
+  1. Seleccionar. Luego de leer un texto o seleccionar un tema concreto, es necesario seleccionar los conceptos a utilizar y nunca se deben de repetir mas de 1 concepto en una misma presentación.
+  2. Agrupar. Los conceptos deben  ser agrupados conforme al tema que se va a investigar.  
+  3. Ordenar (Jerarquizar). Ordenar los conceptos del mas abstracto al mas especifico.
+  4. Representar. Se debe representar y situar los conceptos en el diagrama.
+  5. Conectar. Se deben relacionar los diferentes conceptos y comprobar si se comprenden correctamente el tema a desarrollar. Es decir conectarlos mediante enlaces. Un enlace define la relación entre 2 conceptos y ha de crear una oración correcta.
+  6. Comprobar. Se debe comprobar el mapa y determinar si es correcto o no. En caso de que sea incorrecto es necesario corregirlo al añadir, quitar o cambiar de posición los conceptos (verificar que exista relación entre los conceptos).
+  7. Reflexionar. Determinar si es posible reunir diferentes conceptos, permitiendo ver relaciones que no se habían visto y aportar conocimiento sobre el tema.
+
+- Utilidad de los mapas conceptuales. Sirve para detectar ideas previas y errores de conceptos al empezar un tema. Sirve como organizador para la presentación de contenidos al iniciar el tema. Durante el proceso de aprendizaje para añadir nueva información al tema que se esta trabajando. Sirve para generar ideas, elaborar un resumen de lo aprendido y mejorar la comprensión, evaluar objetivamente la comprensión o diagnosticar la incomprensión.
+
+#### Consideraciones para los mapas conceptuales
+Son un medio para visualizar conceptos, muestran con claridad la organización cognitiva de los contenidos del tema. Deben elaborarse varias veces para mejorarlo. Sirve para evaluar al inicio de las actividades a lo largo y al final del proceso
+
+#### ¿Como evaluar un mapa conceptual?
+1. Saber si se han incluido los conceptos mas importantes
+2. Determinar si los conceptos se relacionan adecuadamente.
+3. Verificar que las relaciones formen proposiciones validas.
+
+
+
 **Mapas de ideas**  
 **Causa y efecto**  
 **Telarañas**  
