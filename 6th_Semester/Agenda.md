@@ -6,3 +6,6 @@
 | 2 | Ejercicios de bisección| Métodos numéricos| Viernes 25, enero 2019| Lunes 28,enero 2019| listo |
 | 3 | Serie de números aleatorios con semilla "317", D = 3| Simulación | Lunes 28, enero 2019 | Martes 29, enero 2019 | listo |
 | 4 | Descargar OpenGl | Ambientes virtuales | Martes 29, enero 2019 | - | N.i. |
+| 5 | Traer ejemplos de traslaciones, escalaciones, y rotaciones sucesivas | Ambientes virtuales | Martes 5, febrero 2019 | Miércoles 6, febrero 2019 | N.i. |
+| 6 | Tabla Z o distribución normal estandar | Simulación | Martes 5, febrero 2019 | Miércoles 6, febrero 2019 | N.i. |
+| 7 | investigar daigrama de de flujo y diagrama de Benn | Sistemas expertos | Martes 5, febrero 2019 | | N.i. |
