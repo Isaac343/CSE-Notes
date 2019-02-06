@@ -38,7 +38,8 @@ Se divide en elementos esenciales que son aquellos si los cuales el contrato no 
 **Causa.** En los contratos Onerosos o de compra-venta se entiende por causa para cada parte contratante la entrega o promesa de una cosa o servicio por la otra parte.  
 **Forma.** En algunos contratos es posible que se exija una forma especifica de celebración, por ejemplo la forma escrita, firma a ante un notario o ante testigos.  
 **Elementos naturales.** Son aquellos que se entienden incorporados en el contrato pero que las partes pueden eliminar libremente del mismo sin que este deje de ser valido.  
-**Elementos accidentales.** Son aquellos que las partes establecen  por clausulas especiales que no sean contrarias a la ley, la moral, las buenas costumbres o el orden publico. Por ejemplo *el plazo, la condición, la solidaridad, la representación, etc*.  
+**Elementos accidentales.** Son aquellos que las partes establecen  por clausulas especiales que no sean contrarias a la ley, la moral, las buenas costumbres o el orden publico. Por ejemplo *el plazo, la condición, la solidaridad, la representación, etc*.
+**Elementos esenciales.**  Son aquellos sin los cuales el contrato carecería de valor
 
 # Características de los contratos informáticos
 

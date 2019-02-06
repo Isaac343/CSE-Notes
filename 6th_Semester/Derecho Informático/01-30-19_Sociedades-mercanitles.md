@@ -38,4 +38,14 @@ Estas pueden ser clasificadas según varios criterios.
   - Caso variable. Aquellas sociedades donde el capital social disminuye y aumenta conforme avance la sociedad sin procedimientos complejos o especiales.
   - Sociedades mercantiles e hecho. Son aquellas que no se documentaron en escritura ni pública ni privada
   - Sociedad mercantil irregular. Aquellas que se documentaron en escritura pero carecen de alguno de los requisitos de ley (por ejemplo. no se registraron, su acta constitutiva no fue publicada, o su plazo se venció).
-  
+ - Comandita simple. Los aportes de los socios no están representados por acciones
+   - Características. El número mínimo de socios es de 2. Los socios colectivos tienen responsabilidad ilimitada. Los socios comanditarios tienen la responsabilidad limitada a su aportación. La inscripción al registro mercantil es ilimitada.
+   - Razón social: Formada por el nombre de los socios o por el de alguno de ellos y se le agrega la indicación: *sociedad en comandita* tienen un lazo determinado de duración.
+  - Derechos y obligaciones de la sociedad comandita simple. Los socios colectivos deben ejercer la representación de la sociedad en la cual deberán cuidar de acordar previamente su remuneración. La distribución de los beneficios se hace con arreglo a los mismos criterios establecidos en el pacto social.
+ - Constitución de la sociedad en comandita simple. Deberá constituirse por escritura pública, indicándose el monto y la clase de aportes de cada uno de los socios. Se debe de expresar el nombre, domicilio, especialidad y aportes de cada uno de los socios gestores.
+ - Ventajas y desventajas.
+   - Ventajas. No requiere de capital mínimo para su constitución, la motivación de cada socio para dedicar su mejor esfuerzo es grande dado que pertenece en los beneficios. Son varias las experiencias que se dedican a imprimir dinamismo a la empresa.
+   - Desventajas. Los socios comanditarios no pueden votar, y tienen prohibido cualquier acto de administración de la sociedad. Los socios comanditarios tiene a su cargo la administración de la sociedad y la representación legal de la misma.
+
+ - Sociedad comandita por aplicaciones. Esta es la sociedad Comanditaria cuyo capital esta importado por los socios, el cual esta dividido por acciones, y se confiere a uno la administración de la que responden como socios adictivos.
+   -Razón social de la sociedad comandita por acciones. Compuesta por el nombre delos scios agregandole la expresion: *"Sociedad en comandita por accione"* o las siglas SCxA
