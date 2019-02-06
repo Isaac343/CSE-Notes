@@ -1,5 +1,5 @@
 <small>*Programación para ambientes virtuales - Martes 29, enero 2019  
-apunte*</small>
+apunte*</small>  
 Se tiene un punto $P=(1,1)$ y se tienen $t_x = 3$, $t_y = 4$.
 
 $$
