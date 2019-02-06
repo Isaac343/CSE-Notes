@@ -138,3 +138,26 @@ $$
 X_{i+1} = (aX_i + C)  mod (M)
 $$
 donde; $X_0$ es la semilla, $X_0 > 0$ y debe ser entero. $a =$ constante multiplicativa, $a>0$ y debe ser entero.
+
+<small>*Martes 5, febrero 2019*</small>  
+La operación $"mod(M)"$ significa multiplicar $X_i * a$, sumar C, y dividir el resultado entre N para obtener el residuo de $X_{i+1}$. Es importante señalar que la ecuación recursiva del algoritmo congruencial lineal genera un secuencia de números enteros $S = \{0, 1, 2, 3, ..., m-1\}$, y que paa obtener números pseudoaleatorios en el intervalo (0, 1) se requiere la siguiente ecuación:
+$$ r_i = \frac{x}{m-1} $$
+$$ i = 0, 1, 2, 3, ..., n $$
+
+**Ejercicio.** Generar 5 numeros aleatorias con los siquientes parametros, $X_o =$ 37, $a =$ 19, $C =$ 33, y $m =$ 100.  
+
+
+| N° | $X_{i+1} = aX_n + C$ | $X_n = \frac{aX_n +c}{100}$ | $r_n = \frac{Mod X_n * 100}{99}$ |
+| :- | :---- | :---- | :---- |
+| 01 | $X_1 = (19) * (37) + 33 = 736$ | $X_1 = \frac{736}{100} = 7.36$ | $r_1 = \frac{36}{99} = 0.3636$ |
+| 02 | $X_2 = (19) * (36) + 33 = 717$ | $X_2 = \frac{717}{100} = 7.17$ | $r_2 = \frac{17}{99} = 0.1717$ |
+| 03 | $X_3 = (19) * (17) +33 = 356$ | $X_3 = \frac{356}{100}= 3.56$ | $r_3 = \frac{56}{99}= 0.5656$ |
+| 04 | $X_4 = (19) * (56) + 33 = 1097$ | $X_4 = \frac{1097}{100} = 10.97$ | $r_4 = \frac{97}{99}= 0.9797$ |
+| 05 | $X_5 = (19) * (97) +33 = 1876$ | $X_5 = \frac{1876}{100} = 18.76$ | $r_5 = \frac{76}{99} = 0.7676$ |
+
+En el ejemplo anterior se vieron de manera arbitraria cada uno de los parámetros requeridos: $X_0, a, c, m$. Sin embargo para que el algoritmo sea capaz el máximo periodo de vida $N$, es preciso que dichos parámetros cumplan ciertas condiciones. *Banks, Carson, Nelson y Nicol*  sugieren lo siguiente:
+$m = 2^g$  
+$a = 1+4k$  
+$K$ debe ser entero  
+$c$ relativamente primo a $m$  
+$g$ debe ser entero$
