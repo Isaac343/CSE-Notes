@@ -8,4 +8,6 @@
 | 4 | Descargar OpenGl | Ambientes virtuales | Martes 29, enero 2019 | - | N.i. |
 | 5 | Traer ejemplos de traslaciones, escalaciones, y rotaciones sucesivas | Ambientes virtuales | Martes 5, febrero 2019 | Miércoles 6, febrero 2019 | N.i. |
 | 6 | Tabla Z o distribución normal estandar | Simulación | Martes 5, febrero 2019 | Miércoles 6, febrero 2019 | N.i. |
-| 7 | investigar daigrama de de flujo y diagrama de Benn | Sistemas expertos | Martes 5, febrero 2019 | | N.i. |
+| 7 | investigar daigrama de de flujo y diagrama de Venn | Sistemas expertos | Martes 5, febrero 2019 | | N.i. |
+| 8 | Concepto de empresa desde el ambito laboral y adiministrativo | Derecho informático | Miércoles 6, febrero 2019 | Lunes 11, febrero 2019 | N.i. |
+| 9 | Ejercicio de números pseudoaleatorios | Simulación | Miércoles 6, febrero 2019 | Lunes 11, febrero 2019 | N.i. |
