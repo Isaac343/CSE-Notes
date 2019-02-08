@@ -143,10 +143,11 @@ Un mapa conceptual pose una estructura sobria y no es común el uso de imágenes
 - Utilidad. Los conceptuales ayudan a la comprensión visual y la reflexión. Mentales (son muy eficaces para desarrollar la capacidad de memorización).
 
 
+
 **Causa y efecto**  
 **Telarañas**  
 **Linea de tiempo**  
 **Organigrama**  
 **Diagrama causa - efecto**  
 **Diagrama de flujo**  
-**Diagrama de Benn**  
+**Diagrama de Venn**  
