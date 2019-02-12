@@ -50,5 +50,3 @@ Las fuentes del derecho es todo aquello objeto o actos que crean u originan el s
 - **F. historificas.** Conjunto de documentos o textos antiguos entre libros, textos o papiros que encierran el contenido de una ley.
 - **F. reales o materiales.** Conjunto de factores históricos, políticos, sociales, económicos, culturales, éticos o religiosos que influyen en la creación de la norma jurídica.
 - **F. formales.** Todo proceso o camino que sigue la norma para tener fuerza y adquirir su aplicación en la sociedad.
-
- 
