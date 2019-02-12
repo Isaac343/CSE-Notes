@@ -31,4 +31,24 @@ Apunte*</small>
 - **Justicia.** Protección a interacción de las relaciones humanas como esencial y definitorio de ella.
 
 ## Tipos de derecho
-- **Constitucional.** Es aquel derecho formado por las normas contenidas en la mas importante de las leyes de un estado, ninguna otra puede contradecirla, trata de la organización de los poderes y derechos de los habitantes. Ejemplo: derecho a la vida, libertad de transito y privacidad.
+- **Constitucional.** Es aquel derecho formado por las normas contenidas en la mas importante de las leyes de un estado, ninguna otra puede contradecirla, trata de la organización de los poderes y derechos de los habitantes. Ejemplo: derecho a la vida, libertad de transito y privacidad; derechos políticos, derechos sociales, derecho equitativo, a la educación y a la vivienda,
+- **Laboral.** Implica reciprocidad, contrato individual del trabajo, no discriminación, protección de datos personales, pago de utilidades).
+ - Características. Todo tipo de derecho que protege al trabajador.
+- **Civil.** Relaciones ente particulares, entre ellos y  sus bienes, relaciones patrimoniales.
+- **Penal.** Para llevar a acabo sanciones. Es normativo valorativo, es finalista.
+- **Procesal.** Rama del derecho público que contempla el conjunto de normas y códigos del proceso judicial. Regula y ordena los requisitos , efectos y métodos en que el estado imparte la justicia. Dividido en 2 ramas:
+ - **Civil.** Disputas en el marco de la sociedad y que precisen de la decisión justa del estado para resolverse sin implicar violaciones punibles a la ley.
+ - **Penal.** Impartición de justicia cuando se han quebrantado las leyes  y es necesaria una impartición de justicia para un castigo.
+ - **Características.** Es un sistema acusatorio, inquisitivo y mixto. Público, pues estructura los diferentes órganos estatales para solucionar conflictos. Autónomo, esta formado por conjunto de juicios, razonamientos y teorías jurídico procesal-penal. Busca juicios de forma subjetiva y objetiva. Es de índole científico fundamentado en el conocimiento metódico.
+- **Mercantil.** Encargado de regular la actividad de los comerciantes y sus relaciones comerciales denominadas actos de comercio.
+Características (5): **1** Derecho profesional creado y desarrollado para resolver conflictos y la actividad propia de los empresarios. **2** Individualista. **3** Consuetudinario, esta codificado, posee base en la tradición o costumbre de los comerciantes. **4** Progresivo al mismo que cambian las condiciones sociales y económicas, el derecho comercial debe actualizarse. **5** Global e internacionalizado.
+- **Administrativo.** Rama del derecho público y es el conjunto de normas que regulan el funcionamiento del estado como poder administrativo entre los distintos órganos administrativos y su relación con los particulares.
+*Características.* Es común autónomo, local y exorbitante.
+
+## Fuentes del derechos
+Las fuentes del derecho es todo aquello objeto o actos que crean u originan el surgimiento del derecho es decir de las entrañas de las profundidades de la sociedad.
+- **F. historificas.** Conjunto de documentos o textos antiguos entre libros, textos o papiros que encierran el contenido de una ley.
+- **F. reales o materiales.** Conjunto de factores históricos, políticos, sociales, económicos, culturales, éticos o religiosos que influyen en la creación de la norma jurídica.
+- **F. formales.** Todo proceso o camino que sigue la norma para tener fuerza y adquirir su aplicación en la sociedad.
+
+ 

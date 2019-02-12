@@ -56,3 +56,46 @@ $x = \frac{-2x^3 + 11.7x^2 + 5}{17.7}$
 $x = g(x)$
 
 https://docs.google.com/spreadsheets/d/1NfFXnyah1tTMkC2kdGf5kdm6FiiP04M-iub4Fxgvojg/edit#gid=0
+
+<small>*Lunes 11, febrero 2019*</small>
+
+## Método de Newton-Raphson
+Se deduce a partir de la interpretación geométrica de la derivada.
+
+![Método de Newton Raphson](./resources/newton_r_example.png)
+$$ f'(X_i) = \frac{f(x_i)-0}{x_i - x_{i+1}} $$
+$$ X_{i+1} = X_i - \frac{f(x_i)}{f'(x_i)} $$
+
+*Nota: el error es proporcional al cuadrado del error anterior. Esto significa que el número de cifras decimales correctas aproximadamente se duplica en cada iteración. A este comportamiento se le llama convergencia cuadrática.*
+
+<span style='color: #02c3a0; font-weight:bold'> Ejercicio 1.</span> Utilice el método de Newton-Raphson para determinar las raices de $2x \cos{2x} - (x-2)^2 = 0$, en $2 <= x <= 3$ y $3 <= x <= 4$ hasta que $E_a < 0.01$%  
+
+![Grafica](./resources/Newton_Raphson_Ex_1.png)
+
+$f(x) = 2x\cos{2x} - (x-2)^2$  
+$f'(x) = -4x\sin{2x} + 2\cos{2x} -2(x-2)$  
+$X_{i+1} = X_i - \frac{2x \cos2x - (x-2)^2}{-4x \sin{2x} + 2\cos{2x}  2(x-2)}$  
+| N° | $X_i$ | $E_a$ % |
+| :- | :---- | :------ |
+| 00 | 2 | - |
+| 01 | 2.550769 | 21.59 |
+| 02 | 2.371359 | 7.57 |
+| 03 | 2.370587 | 0.0283 |
+| 04 | 2.370686 | 0.00004 |
+
+| N° | $X_i$ | $E_a$ % |
+| :- | :---- | :------ |
+| 00 | 4 | - |
+| 01 | 3.743349 | 6.85 |
+| 02 | 3.722390 | 0.56 |
+| 03 | 3.722113 | 0.0074420 |
+
+## Método de la secante
+La derivada se puede aproximar mediante una diferencia finita hacia atrás.
+$f'(x_i) =~ \frac{f(x_{i+1}) - f(x)}{x_{i+1}-x_i}$  
+Al sustituir en al formula de Newton Newton Raphson:
+$$ X_{i+1} = X_i - \frac{f(x_i)(X_{i-1} - X_i)}{f(x_{i-1}) - f(x_i)} $$
+
+| N° | $X_{i-1}$ | $X_i$ | $X_{i+1}$ | $f(x_{i+1})$ | |
+| :- | :- | :- | :- | :- | :- |
+| 00 | 4 | - |
