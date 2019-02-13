@@ -89,3 +89,23 @@ Generar suficientes números entre 0 y 1 con los siguientes parámetros: $X_0 = 
 | 06 |  |  |  |
 | 07 |  |  |  |
 | 08 |  |  |  |
+
+<small>*Martes 12, febrero 2019*</small>
+## Algoritmo congruencial aditivo
+Este algoritmo requiere una secuencia previa de $n$ números enteros $x_1, x_2, x_3, ..., x_n$ para generar una secuencia de números enteros  que empieza en $x_{n+1}, x_{n+2}, x_{n+3}$. Su ecuación recursiva es:
+$$X_i = (X_{i+1} + X_{i-n}) mod(m)$$
+$$ i = n+1, n+2, n+3, ..., N$$
+Los numeros $r_i$ son generados con la siguiente formula
+$$ r_i = \frac{X_i}{m-1} $$
+
+Generar 7 números pseudoaleatorios entre 0 y 1, a partir de la siguiente secuencia de números enteros: $x_1 = 65, x_2 = 89, x_3 = 98, x_4 = 03, x_5 = 69;$ m=100. para generar $R_1, a R_7$ antes es necesario generar $r_1$ hasta $r_12$
+| N° | $X_i = (X_{i-1}+X_{i-n})mod(m)$ | $r_i = \frac{X_i}{m-1}$ |
+| :- | :---- | :---- |
+| 01 | $X_6 = (69 + 65)mod(100) = 0.34$ | $\frac{34}{99} = 0.3434$ |
+| 02 | $X_7 = (34 + 89)mod(100) = 0.23$ | $\frac{23}{99} = 0.2323$ |
+| 03 | $X_8 = (23 + 98)mod(100) = 0.21$ | $\frac{21}{99} = 0.2121$ |
+| 04 | $X_9 = (21 + 03)mod(100) = 0.24$ | $\frac{24}{99} = 0.2424$ |
+| 05 | $X_10 = (24 + 69)mod(100) = 0.93$ | $\frac{93}{99} = 0.9393$ |
+| 06 | $X_11 = (93 + 34)mod(100) = 0.27$ | $\frac{27}{99} = 0.2727$ |
+| 07 | $X_12 = (27 + 23)mod(100) = 0.50$ | $\frac{50}{99} = 0.5050$ |
+| 08 | $X_13 = (50 + 21)mod(100) = 0.71$ | $\frac{71}{99} = 0.7171$ |
