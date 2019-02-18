@@ -1,3 +1,7 @@
+---
+layout: note
+title : Método de solución de sistemas de ecuaciones
+---
 # Unidad 2
 <small>*Lunes 18, febrero 2019  
 Apunte*</small>

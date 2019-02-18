@@ -4,3 +4,10 @@
 
 layout: default
 ---
+{% for note in site.pages %}
+ <ul>
+  {% if note.layout == "note" %}
+   <li><a href="{{ note.url }}"> {{note.title}}</a></li>
+  {% endif %}
+ </ul>
+{% endfor %}
