@@ -31,14 +31,15 @@ Se calculan las nuevas $x$ y se sustituyen en la siguiente iteración.
 ### Criterio de paro
 $$|\epsilon_{a,i}| = |\frac{X^i_k - X^{i-1}_k}{X^i_k}|* 100 \% < \epsilon_s $$
 para todas las $k$ donde $i$ e $i-1$ son las iteraciones actuales y previas respectivamente.  
-<span style="color:#02c3a0; font-weight:bold;"> Ejemplo. </span> Resuelve el sistema por el método de Jacobi, hasta que el error relativo porcentual este por debajo de 5%.
-$$ 10X_1 + 2X_2 - X_3 = 27 $$
-$$ -3X_1 - 6X_2 + 2X_3 = -61.5 $$
-$$ X_1 + X_2 + 5X_3 = -21.5 $$
-Despejando
-$$ X_1 = (27 - 2X_2 + X_3) / 10 $$
-$$ X_2 = (-61.5 + 3X_1 - 2X_3) / (-6) $$
-$$ X_3 = (-21.5 - X_1 - X_2) / 5 $$
+<span style="color:#02c3a0; font-weight:bold;"> Ejemplo. </span> Resuelve el sistema por el método de Jacobi, hasta que el error relativo porcentual este por debajo de 5%.  
+$$ 10X_1 + 2X_2 - X_3 = 27 $$  
+$$ -3X_1 - 6X_2 + 2X_3 = -61.5 $$  
+$$ X_1 + X_2 + 5X_3 = -21.5 $$  
+Despejando  
+$$ X_1 = (27 - 2X_2 + X_3) / 10 $$  
+$$ X_2 = (-61.5 + 3X_1 - 2X_3) / (-6) $$  
+$$ X_3 = (-21.5 - X_1 - X_2) / 5 $$  
+
 | N° | $X_1$ | $X_2$ | $X_3$ | $\epsilon_a$ |
 | :- | :- | :- | :- | :- |
 | 00 | 0 | 0 | 0 | - |
