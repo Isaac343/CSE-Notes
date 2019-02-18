@@ -1,0 +1,14 @@
+---
+layout: default
+---
+<h1>Métodos numericos</h1>
+
+<ul>
+ {% for metodnum in site.MN %}
+  <li>
+   <h2><a href="{{ MN.url}}">{{ MN.name}}</a></h2>
+   <h3>{{ MN.position}}</h3>
+   <p>{{ MN.conten | markdownify }}</p>
+  </li>
+ {% endfor %}
+</ul>
