@@ -43,7 +43,7 @@ $2\sin{\sqrt{x}} = 0$
 $x = 2\sin{\sqrt{x}}$ -> $X_{i+1}=\sin{\sqrt{X_i}}$  
 $X_{i+1} = g(x_i)$
 
-| N° | $X_i$ | $E_a$(%) | Operacion para $X_i$ |  
+| N° | $X_i$ | $E_a$(%) | Operacion para $X_i$ |
 |:---| :---- | :------- | :------------------- |
 |  0 | 0.5 |  - | $X_0$ = 0.5 |
 |  1 | 1.299274 | 61.52 | $X_1$ = $2\sin{\sqrt{0.5}} = 1.299274$ |
@@ -57,7 +57,7 @@ $X_{i+1} = g(x_i)$
 <span style='color: #02c3a0; font-weight:bold'> Ejercicio.</span>
 Determina la raíz real más grande de $f(x) = 2x^3 - 11.7x^2 + 17.7x -5$ con el método de punto fijo.  
 $x = \frac{-2x^3 + 11.7x^2 + 5}{17.7}$  
-$x = g(x)$
+$x = g(x)​$
 
 https://docs.google.com/spreadsheets/d/1NfFXnyah1tTMkC2kdGf5kdm6FiiP04M-iub4Fxgvojg/edit#gid=0
 
@@ -67,12 +67,15 @@ https://docs.google.com/spreadsheets/d/1NfFXnyah1tTMkC2kdGf5kdm6FiiP04M-iub4Fxgv
 Se deduce a partir de la interpretación geométrica de la derivada.
 
 ![Método de Newton Raphson](./resources/newton_r_example.png)
+
 $$ f'(X_i) = \frac{f(x_i)-0}{x_i - x_{i+1}} $$
 $$ X_{i+1} = X_i - \frac{f(x_i)}{f'(x_i)} $$
 
 *Nota: el error es proporcional al cuadrado del error anterior. Esto significa que el número de cifras decimales correctas aproximadamente se duplica en cada iteración. A este comportamiento se le llama convergencia cuadrática.*
 
 <span style='color: #02c3a0; font-weight:bold'> Ejercicio 1.</span> Utilice el método de Newton-Raphson para determinar las raices de $2x \cos{2x} - (x-2)^2 = 0$, en $2 <= x <= 3$ y $3 <= x <= 4$ hasta que $E_a < 0.01$%  
+
+
 
 ![Grafica](./resources/Newton_Raphson_Ex_1.png)
 
@@ -100,10 +103,10 @@ $f'(x_i) =~ \frac{f(x_{i+1}) - f(x)}{x_{i+1}-x_i}$
 Al sustituir en al formula de Newton Newton Raphson:
 $$ X_{i+1} = X_i - \frac{f(x_i)(X_{i-1} - X_i)}{f(x_{i-1}) - f(x_i)} $$
 
-| N° | $X_{i-1}$ | $X_i$ | $f(X_{i-1})$ | $f(x_i)$ |$E_a$ |  
-| :- | :- | :- | :- | :- | :- |  
-| 00 | 2 | 3 | -2.614574 | 4.761022 | - |  
-| 01 | 3 | 2.354490 | 4.761022 | -0.141717 | 27.416133 |  
-| 02 | 2.354490 | 2.373149 | -0.141717 | 0.021669 | 0.786249 |  
-| 03 | 2.373149 | 2.370674 | 0.021669 | -0.000113 | 0.104387 |  
-| 04 | 2.370674 | 2.370687 | -0.000113 | 0.0000007 | 0.000540 |  
+| N° | $X_{i-1}$ | $X_i$ | $f(X_{i-1})$ | $f(x_i)$ |$E_a$ |
+| :- | :- | :- | :- | :- | :- |
+| 00 | 2 | 3 | -2.614574 | 4.761022 | - |
+| 01 | 3 | 2.354490 | 4.761022 | -0.141717 | 27.416133 |
+| 02 | 2.354490 | 2.373149 | -0.141717 | 0.021669 | 0.786249 |
+| 03 | 2.373149 | 2.370674 | 0.021669 | -0.000113 | 0.104387 |
+| 04 | 2.370674 | 2.370687 | -0.000113 | 0.0000007 | 0.000540 |
