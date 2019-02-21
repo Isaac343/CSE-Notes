@@ -1,8 +1,10 @@
 <small>*Derecho informático - Miércoles 30, enero 2019  
 Apunte*</small>
+
 # Sociedades Mercantiles
 
 ## Conceptos de sociedad mercantiles
+
 Mantilla Molina define la sociedad mercantil como una nota o característica determinante del negocio constitutivo de una sociedad y es la relación reciproca de las partes para la realización de un fin en común.  
 Rodríguez y Rodríguez señalan a la sociedad mercantil como un contrato asociativo y de organización con intereses coincidentes en una dirección que proporciones ventajas económicas a los socios del fondo común.  
 Se puede concluir que la sociedad mercantil es una que tiene como objetivo la realización de actos de comercio o en general es una entidad sujeta al derecho mercantil y se diferencia de una sociedad civil  en el hecho de que esta ultima no contempla en el objeto social actos mercantiles.
