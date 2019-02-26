@@ -14,20 +14,20 @@ Sea un sistema de ecuaciones:
 $$
 \{A\}\{X\} = \{B\}
 $$
-$$
+
 Si los elementos de la diagonal no son todos cero, se resuelven las ecuaciones como sigue:
 
 <span style="color:#02c3a0; font-weight:bold;"> Para un sistema 3x3</span>  
-$a_{11}X_1 + a_{12}X_2 + a_{13}X_3 = b_1​$  
-$a_{21}X_1 + a_{22}X_2 + a_{23}X_3 = b_2​$  
-$a_{31}X_1 + a_{32}X_2 + a_{33}X_3 = b_3​$  
+$a_{11}X_1 + a_{12}X_2 + a_{13}X_3 = b_1$  
+$a_{21}X_1 + a_{22}X_2 + a_{23}X_3 = b_2$  
+$a_{31}X_1 + a_{32}X_2 + a_{33}X_3 = b_3$  
 
-<span style="color:#02c3a0; font-weight:bold;"> la primera ecuación para $X_1​$</span>  
-$X_1 = \frac{b_1 - a_{12}X_2 - a_{13}X_3}{a_{11}}​$  
-<span style="color:#02c3a0; font-weight:bold;"> la segunda ecuación para $X_2​$</span>  
-$X_2 = \frac{b_2 - a_{21}X_1 - a_{23}X_3}{a_{22}}​$  
-<span style="color:#02c3a0; font-weight:bold;"> la tercer ecuación para $X_3​$</span>  
-$X_3 = \frac{b_3 - a_{31}X_1 - a_{33}X_2}{a-{33}}​$
+<span style="color:#02c3a0; font-weight:bold;"> la primera ecuación para $X_1$</span>  
+$X_1 = \frac{b_1 - a_{12}X_2 - a_{13}X_3}{a_{11}}$  
+<span style="color:#02c3a0; font-weight:bold;"> la segunda ecuación para $X_2$</span>  
+$X_2 = \frac{b_2 - a_{21}X_1 - a_{23}X_3}{a_{22}}$  
+<span style="color:#02c3a0; font-weight:bold;"> la tercer ecuación para $X_3$</span>  
+$X_3 = \frac{b_3 - a_{31}X_1 - a_{33}X_2}{a-{33}}$
 
 Se eligen valores iniciales para las X. Lo mas simple es suponer que todas las X son cero.  
 Se calculan las nuevas $x$ y se sustituyen en la siguiente iteración.
@@ -35,12 +35,12 @@ Se calculan las nuevas $x$ y se sustituyen en la siguiente iteración.
 ### Criterio de paro
 $$
 |\epsilon_{a,i}| = |\frac{X^i_k - X^{i-1}_k}{X^i_k}|* 100 \% < \epsilon_s
+$$
 para todas las $k$ donde $i$ e $i-1$ son las iteraciones actuales y previas respectivamente.  
 <span style="color:#02c3a0; font-weight:bold;"> Ejemplo. </span> Resuelve el sistema por el método de Jacobi, hasta que el error relativo porcentual este por debajo de 5%.
-$$
 
 para todas las $k$ donde $i$ e $i-1​$ son las iteraciones actuales y previas respectivamente.  
-<span style="color:#02c3a0; font-weight:bold;"> Ejemplo. </span> Resuelve el sistema por el método de Jacobi, hasta que el error relativo porcentual este por debajo de 5%.  
+<span style="color:#02c3a0; font-weight:bold;"> Ejemplo. </span> Resuelve el sistema por el método de Jacobi, hasta que el error relativo porcentual este por debajo de 5%.
 $$
 10X_1 + 2X_2 - X_3 = 27
 $$
@@ -52,7 +52,6 @@ $$
 $$
 X_1 + X_2 + 5X_3 = -21.5
 $$
-
 Despejando  
 $$
 X_1 = (27 - 2X_2 + X_3) / 10
@@ -65,7 +64,6 @@ $$
 $$
 X_3 = (-21.5 - X_1 - X_2) / 5
 $$
-
 
 
 | N° | $X_1$ | $X_2$ | $X_3$ | $\epsilon_a$ |

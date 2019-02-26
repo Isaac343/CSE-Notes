@@ -24,5 +24,35 @@ $$
 por lo tanto el valor esperado, es decir la media de valores =
 
 2. **Varianza.** Si se parte de la misma distribución uniforme continua se obtiene  la varianza de la distribución:
-$$ V(x) = \alpha^2 = E(x^2) - M^2 $$
-$$ E(x^2) = \int_a^b \frac{1}{b-a}(x^2) dx = \frac{x^3}{3(a-b)}|^b_a = \frac{(b -a)^3}{3(b -a)} = \frac{(b-a)^2}{3} = \frac{(1-0)^2}{3} = \frac{1}{3} = 0.3333 $$
+  $$
+  V(x) = \alpha^2 = E(x^2) - \mu^2
+  $$
+
+  $$
+  E(x) = \int_a^b \frac{1}{b-a}(x) dx = \frac{x^2}{2(a-b)}|^b_a = \frac{(b -a)^2}{2(b -a)} = \frac{(b-a)}{2} = \frac{(1-0)}{2} = \frac{1}{2} = 0.5
+  $$
+
+  
+
+  
+  $$
+  E(x^2) = \int_a^b \frac{1}{b-a}(x^2) dx = \frac{x^3}{3(a-b)}|^b_a = \frac{(b -a)^3}{3(b -a)} = \frac{(b-a)^2}{3} = \frac{(1-0)^2}{3} = \frac{1}{3} = 0.3333
+  $$
+
+  $$
+  V(x) = \alpha^2 =
+  \frac{1}{3} - \frac{1}{2} = \frac{1}{12}
+  $$
+
+$$
+\alpha = 1/12
+$$
+
+$$
+\mu = 1/2
+$$
+
+*Nota: Independencia, es una propiedad muy importante e implica que los números aleatorios no deben tener correlación entre si; es decir, deben ser independientes de manera que puedan dispersarse de una manera uniforme dentro de todo el aspecto de valores posibles.*
+
+
+

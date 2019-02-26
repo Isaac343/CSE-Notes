@@ -1,0 +1,71 @@
+<small>*Métodos numericos - Viernes 22, febrero 2019*</small>
+
+# Método de Gauss - Seidel
+
+Conforme un nuevo valor de $x$ se calcula, este se usa inmediatamente en la siguiente ecuación para determinar el otro valor de $x$. De esta forma, si la solución es convergente, se empleara la mejor aproximación disponible.
+
+![](/home/isaac/Documentos/CSE-Notes/6th_Semester/Métodos Numericos/resources/Gauss_Seidel.jpg)
+
+<span style="color:#23f453"> Ejemplo.</span>
+$$
+15c_1 - 3c_2 - c_3 = 3300
+$$
+
+$$
+-3c_1 + 18c_2 -6c_3 = 1200
+$$
+
+$$
+-4c_1 - c_2 + 12c_3 = 2400
+$$
+
+Despejando: 
+$$
+c_1 = \frac{3300 + 3c_2 + c_3}{15}
+$$
+
+$$
+c_2 = \frac{1200 + 3c_1 + 6c_3}{18}
+$$
+
+$$
+c_3 = \frac{2400 + 4c_1 + c_2}{12}
+$$
+
+| $i$  | $C_1$      | $C_2$      | $C_3$      | $\epsilon_a C_1(\%)$ |
+| ---- | ---------- | ---------- | ---------- | -------------------- |
+| 0    | 0          | 0          | 0          | -                    |
+| 1    | 220        | 103.333333 | 281.944444 | 100                  |
+| 2    | 259.462962 | 203.891975 | 303.478652 | 15.20                |
+| 3    | 281.010305 | 214.661268 | 311.558541 | 2.22                 |
+| 4    | 283.702823 | 217.803318 | 312.717884 | 0.95                 |
+| 5    | 284.408523 | 218.307382 | 312.995123 | 0.2                  |
+
+
+
+![](/home/isaac/Documentos/CSE-Notes/6th_Semester/Métodos Numericos/resources/Gauss_Seidel_Exercise.jpg)
+
+<small>Lunes 25, febrero 2019</small>
+
+https://docs.google.com/spreadsheets/d/1NfFXnyah1tTMkC2kdGf5kdm6FiiP04M-iub4Fxgvojg/edit#gid=1597546790
+
+## Relajación
+
+Es una ligera modificación al método de Gauss-Seidel para mejorar la convergencia. Después de que se calcula cada nuevo valor de $x$, ese valor se modifica mediante un promedio ponderado de los resultados de las iteraciones anterior y actual: 
+$$
+X_i^{nuevo} = \lambda X_i^{nuevo} + (1 - \lambda) X_i^{anterior}
+$$
+Donde $\lambda$ es un factor ponderado con un valor entre 0 y 2.
+
+Si a $\lambda$ se le asigna un valor entre 0 y 1 el resultado es un promedio ponderado de los resultados actuales y anteriores. Esta modificación se conoce como *sub-relajación*. Se emplea comúnmente para hacer que un sistema no convergente, converja o apresure la convergencia al amortiguar sus oscilaciones.
+
+Para valores $\lambda​$ de 1 a 2, se le da una ponderación extra al valor actual. Con esto se pretende mejorar la aproximación al llevarla mas cerca de la solución verdadera. A esta modificación se le llama *sobre-relajación*, y permite acelerar la convergencia de un sistema que ya es convergente.
+
+La elección de un valor adecuado de $\lambda$ es especificado por el problema y se determina en forma empírica.
+
+![](/home/isaac/Documentos/CSE-Notes/6th_Semester/Métodos Numericos/resources/Gauss_Seidel_Exercise_Rel.jpg)
+
+| N°   | $X_1$ | $X_2$ | $X_3$ | $\epsilon_a$ |      |
+| ---- | ----- | ----- | ----- | ------------ | ---- |
+| 0    | 0     | 0     | 0     | -            |      |
+
