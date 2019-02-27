@@ -38,7 +38,7 @@ LI_r = \frac{1}{2}-Z_{\frac{\alpha}{2}}{[\frac{1}{\sqrt{12n}}]}
 $$
 
 $$
-LS_r = \frac{1}{2}- Z_{\frac{\alpha}{2}}[\frac{1}{\sqrt{12n}}]
+LS_r = \frac{1}{2}+ Z_{\frac{\alpha}{2}}[\frac{1}{\sqrt{12n}}]
 $$
 
 si el valor de $r⁻$ se encuentra dentro de los límites de aceptación concluimos que no se puede rechazar que el conjunto $r_i$ tiene un valor esperado de 0.5 con un nivel de aceptación de $1-\alpha$. 
@@ -51,3 +51,27 @@ Conjunto $r = 40$ números
 $n = 10$
 $\alpha = 5\%$
 
+<small>*Martes 26, febrero 2019*</small>
+
+El conjunto es aceptado pues la hipótesis queda entre los límites. ($LS_r= 0.589461$, $LI_r = 0.410538$)
+
+## Prueba de Varianza
+
+Otra de las propiedades que debe satisfacer el conjunto $r_i$ es que sus números tengan una varianza de $\frac{1}{12}$. La prueba que busca determinar lo anterior es la prueba de varianza, establece las siguientes hipótesis.
+$$
+H_0 : \alpha^2 = \frac{1}{12}
+$$
+
+$$
+H_1 : \alpha^2 \neq \frac{1}{12}
+$$
+
+La prueba de varianza consiste en determinar la varianza de los $n$ números que contiene el conjunto $R_i$ mediante la ecuación siguiente:
+$$
+V(r) = \frac{\sum_{i=1}^n{(r_i - r)^2}}{n-1}
+$$
+Después se calculan los límites inferior y superior con las siguientes ecuaciones: a
+$$
+LI_{v(r)} = \frac{X^2 (1 - \alpha) / 2, n -1}{12(n -1)}
+$$
+Si el valor de $v_{(r)}$ se encuentra entre los limites de aceptación decimos que no se puede rechazar el conjunto $R_i$, tiene una varianza de $\frac{1}{12}$ con un nivel de aceptación de $1-\alpha$; de lo contrario, se rechaza el conjunto $R_i$, tiene una varianza de $\frac{1}{12}$.
