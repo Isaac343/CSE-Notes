@@ -1,4 +1,4 @@
-<small>*Métodos numericos - Viernes 22, febrero 2019*</small>
+<small>Métodos numericos - Viernes 22, febrero 2019*</small>
 
 # Método de Gauss - Seidel
 
@@ -68,4 +68,51 @@ La elección de un valor adecuado de $\lambda$ es especificado por el problema y
 | N°   | $X_1$ | $X_2$ | $X_3$ | $\epsilon_a$ |      |
 | ---- | ----- | ----- | ----- | ------------ | ---- |
 | 0    | 0     | 0     | 0     | -            |      |
+
+
+
+
+
+<small>*Miércoles 27, febrero 2019*</small>
+
+Use el método de Gauss-Seidel para
+
+a) sin relajación 
+
+b) con relajación($\lambda = 1.2$)
+
+para resolver el siguiente sistema para una tolerancia de $\epsilon_a = 5\%$. Si es necesario, reacomode las ecuaciones para lograr convergencia.
+$$
+2x_1 - 6x_2 - x_3 = - 38
+$$
+
+$$
+-3x_1 -x_2 + 7x_3 = -34
+$$
+
+$$
+-8x_1 + x_2 - 2x_3 = -20
+$$
+
+Reacomodando las ecuaciones:
+$$
+-8x_1 + x_2 - 2x_3 = -20
+$$
+
+$$
+2x_1 - 6x_2 - x_3 = - 38
+$$
+
+$$
+-3x_1 -x_2 + 7x_3 = -34
+$$
+
+| N°   | $X_1$    | $X_1$ R | $X_2$ | $X_2$ R | $X_3$ | $X_3$ R | $\epsilon_a$ |
+| ---- | -------- | ------- | ----- | ------- | ----- | ------- | ------------ |
+| 0    | 0        | 0       | 0     | 0       | 0     | 0       | -            |
+| 1    | 4.294286 |         |       |         |       |         | 100          |
+| 2    | 3.907824 |         |       |         |       |         |              |
+| 3    | 4.03     |         |       |         |       |         |              |
+| 4    |          |         |       |         |       |         |              |
+| 5    |          |         |       |         |       |         |              |
 

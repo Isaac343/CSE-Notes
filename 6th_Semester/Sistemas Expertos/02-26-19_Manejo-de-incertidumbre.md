@@ -4,7 +4,7 @@ La incertidumbre es aquella falta de consistencia, precisión o exactitud de la 
 
 ## Causas de incertidumbre
 
-Una de ellas es la falta de exaustividad, que es un caso en el que la medición u otros datos no están disponibles  por que el proceso aun no se reconoce o por que todavía no existe un método de medición.
+Una de ellas es la **falta de exaustividad**, que es un caso en el que la medición u otros datos no están disponibles  por que el proceso aun no se reconoce o por que todavía no existe un método de medición.
 
 **Modelo.** Los modelos pueden ser tan simples como un multiplicador y aumentar la complejidad como en el caso de modelos de procesos complicados. La utilización de los modelos para estimar las estimaciones y absorciones de gases de efecto invernadero pueden ser de incertidumbre por diversos motivos.
 
@@ -26,9 +26,9 @@ Una de ellas es la falta de exaustividad, que es un caso en el que la medición 
 
 Es posible reducir la incertidumbre de 7 formas:
 
-1. Mejorar la conceptualización, es decir, mejorar la inclusividad de la hipótesis estructural seleccionada y así poder reducir la incertidumbre.
-2. Mejorar modelos. Mejorar la estructura del modelo puede traducirse en una mejor comprensión y caracterización de los errores sistemáticos y aleatorios así como la reducción de estas causas de incertidumbre. 
-3. Mejorar la representatividad. Estratificación u otras estrategias del muestreo.
+1. **Mejorar la conceptualización**, es decir, mejorar la inclusividad de la hipótesis estructural seleccionada y así poder reducir la incertidumbre.
+2. **Mejorar modelos.**  Mejorar la estructura del modelo puede traducirse en una mejor comprensión y caracterización de los errores sistemáticos y aleatorios así como la reducción de estas causas de incertidumbre. 
+3. **Mejorar la representatividad.** Estratificación u otras estrategias del muestreo.
 4. **Usar métodos mas preciso.** Usando métodos mas precisos evitando la simplificación de la hipotiposis, garantizando el uso y calibración apropiada de las técnicas de medición.
 5. **Recopilar mas datos medidos.** Se puede reducir la incertidumbre vinculada al error del muestreo aleatorio aumentando el tamaño de la muestra.
 6. **Eliminar el riesgo de sesgo conocido.** Se logra al obtener el posicionamiento y la calibración correctas de la instrumentalizacion, la corrección y la representatividad de los modelo u otros procedimientos de estimación.
@@ -46,5 +46,5 @@ Es posible reducir la incertidumbre de 7 formas:
 
 ## Ejemplos de dominio con la incertidumbre.
 
-Diagnostico médico o industrial, predicción financiera. En la explotación minera y petrolera, en la interpretación de imágenes, reconocimiento de voz, r y en e  control de procesos industriales complejos.
+Diagnostico médico o industrial, predicción financiera. En la explotación minera y petrolera, en la interpretación de imágenes, reconocimiento de voz, y en e  control de procesos industriales complejos.
 
