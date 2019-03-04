@@ -79,11 +79,13 @@ $$
 
 <small>*Miércoles 20, febrero 2019*</small>
 
+<span style='color:#23f453; font-weight:bold'>Ejercicio 6.</span>
+
 Resuelve el siguiente sistema de ecuaciones con el método de *Jacobi* para $\epsilon = 5 \%$ 
 
 $15c_1 - c_2 - c_3 = 3300$
 
-$-3c_1 + 18c_2 -6c_3 = 1200$
+$-3c_1 + 18c_2 -6c_3 = 1200​$
 
 $-4c_1 - c_2 + 12c_3 = 2400$
 

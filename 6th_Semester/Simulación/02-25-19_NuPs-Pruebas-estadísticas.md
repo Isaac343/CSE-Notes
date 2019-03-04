@@ -68,10 +68,26 @@ $$
 
 La prueba de varianza consiste en determinar la varianza de los $n$ números que contiene el conjunto $R_i$ mediante la ecuación siguiente:
 $$
-V(r) = \frac{\sum_{i=1}^n{(r_i - r)^2}}{n-1}
+V(r) = \frac{\sum_{i=1}^n{(r_i - \vec{r})^2}}{n-1}
 $$
-Después se calculan los límites inferior y superior con las siguientes ecuaciones: a
+Después se calculan los límites inferior y superior con las siguientes ecuaciones: 
 $$
-LI_{v(r)} = \frac{X^2 (1 - \alpha) / 2, n -1}{12(n -1)}
+LI_{v(r)} = \frac{\chi^2_{(1 - \alpha) / 2}, n -1}{12(n -1)}
 $$
-Si el valor de $v_{(r)}$ se encuentra entre los limites de aceptación decimos que no se puede rechazar el conjunto $R_i$, tiene una varianza de $\frac{1}{12}$ con un nivel de aceptación de $1-\alpha$; de lo contrario, se rechaza el conjunto $R_i$, tiene una varianza de $\frac{1}{12}$.
+$$
+LS_{v(r)} = \frac{\chi^2_{(\alpha/s)}, n- 1}{12(n-1)}
+$$
+
+
+
+Si el valor de $v_{(r)}$ se encuentra entre los limites de aceptación decimos que no se puede rechazar el conjunto $R_i$, tiene una varianza de $\frac{1}{12}$ con un nivel de aceptación de $1-\alpha$; de lo contrario, se rechaza el conjunto $R_i$, tiene una varianza de $\frac{1}{12}​$.
+
+Realiza la prueba de varianza a los 40 numero $r_i$ considerando que $n= 40$, y $\alpha = 5\%​$, procede a calcular la varianza de los números, y los límites de aceptación correspondientes. 
+
+$$V(r) = 0.086950$$
+
+$LI_{v(r)} = \frac{\chi 1-0.05/2, 39}{12(39)} = \frac{0.975, 39}{468} = \frac{23,6543}{468} = 0.050543$
+
+$LS_{v(r)} = \frac{\chi \space 0.05/2, 39}{12(39)} = \frac{0.025, 39}{12(39)} = \frac{44,5395}{468} = 0.093033$ 
+
+Dado que el valor de la varianza es igual a 0.08 esta entre los limites inferior y superior por tanto no se puede rechazar el conjunto de números. 

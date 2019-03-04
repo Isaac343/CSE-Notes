@@ -17,7 +17,7 @@ El encadenamiento principalmente se usa para enseñar habilidades básicas a ni�
 ## Pasos para su aplicación 
 
 1. Seleccionar correctamente los reforzadores.
-2. Dividir la conducta o metas e pasos sucesivos.
+2. Dividir la conducta o metas o pasos sucesivos.
 3. Modelado de paso a paso que el sujeto no tenga en el repertorio.
 4. Aprendizaje de cada paso y refuerzo sistemático positivo de la conducta terminal o meta. Cada paso viene reforzado de un estímulo reforzador que lo mantiene y que a la vez estimula el paso siguiente.
 
@@ -34,3 +34,4 @@ Ha de atender y entender las instrucciones y ha de aportar una lista de reforzad
 ## Ámbitos de aplicación
 
 Se aplica prácticamente ne todas las áreas de trabajo de psicología , pero se registra en mayor medida en las áreas educativas, laborales y clínicas.
+

@@ -54,10 +54,10 @@ $X_{i+1} = g(x_i)$
 |  6 | 1.972344 | 0.013 | $X_6 = 2\sin{\sqrt{1.972069}} = 1.972344$ |
 |  7 | 1.972377 | 0.0016| $X_7 = 2\sin{\sqrt{1.972344}} = 1.972377$
 
-<span style='color: #02c3a0; font-weight:bold'> Ejercicio.</span>
+<span style='color:#23f453; font-weight:bold'> Ejercicio 4.</span>
 Determina la raíz real más grande de $f(x) = 2x^3 - 11.7x^2 + 17.7x -5$ con el método de punto fijo.  
 $x = \frac{-2x^3 + 11.7x^2 + 5}{17.7}$  
-$x = g(x)​$
+$x = g(x)$
 
 https://docs.google.com/spreadsheets/d/1NfFXnyah1tTMkC2kdGf5kdm6FiiP04M-iub4Fxgvojg/edit#gid=0
 
@@ -73,7 +73,7 @@ $$ X_{i+1} = X_i - \frac{f(x_i)}{f'(x_i)} $$
 
 *Nota: el error es proporcional al cuadrado del error anterior. Esto significa que el número de cifras decimales correctas aproximadamente se duplica en cada iteración. A este comportamiento se le llama convergencia cuadrática.*
 
-<span style='color: #02c3a0; font-weight:bold'> Ejercicio 1.</span> Utilice el método de Newton-Raphson para determinar las raices de $2x \cos{2x} - (x-2)^2 = 0$, en $2 <= x <= 3$ y $3 <= x <= 4$ hasta que $E_a < 0.01$%  
+<span style='color:#23f453; font-weight:bold'> Ejercicio 5.</span> Utilice el método de Newton-Raphson para determinar las raices de $2x \cos{2x} - (x-2)^2 = 0$, en $2 <= x <= 3$ y $3 <= x <= 4$ hasta que $E_a < 0.01$%  
 
 
 
