@@ -1,13 +1,17 @@
 ---
-# Feel free to add content and custom Front Matter to this file.
-# To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
-
 layout: default
+title: Home
 ---
+<div class="navbar">
+  {% include navbar.html %}
+</div>
+<div class="title">
+ <h1>Apuntes ISC</h1>
+</div>
 {% for note in site.pages %}
  <ul>
   {% if note.layout == "note" %}
-   <li><a href="{{ note.url }}"> {{note.title}}</a></li>
+   <li><a href="{{ site.url }}{{ note.url }}"> {{note.title}}</a></li>
   {% endif %}
  </ul>
 {% endfor %}

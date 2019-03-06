@@ -8,6 +8,7 @@ subject: Ḿétodos numericos
 una matriz a bandas en la que todos sus elementos son 0 con excepción de una banda centrada sobre la diagonal principal.
 
 Las dimensiones de un sistema a bandas se cuantifica mediante 2 parámetros: el ancho de banda (*BW*) y el ancho de media banda(*HBW*). Estos 2 valores se relacionan mediante
+
 $$
 \left(\begin{array}{cc}
 BW & HBW & 0\\
@@ -15,7 +16,9 @@ HBW & BW & HBW\\
 0 & HBW & BW\\
 \end{array}\right)
 $$
+
 <span style="color:#23f453; font-weight:bold;">Ejemplo.</span>
+
 $$
 \left(\begin{array}{cc}
 8 & -2 & -1 & 0 & 0\\
@@ -32,11 +35,10 @@ x_1\\ x_2\\ x_3\\ x_4\\ x_5\\
 5\\ 2\\ 1\\ 1\\ 5\\
 \end{array}\right)
 $$
+
 <span style="color:#23f453; font-weight:bold;">Ejercicio 7.</span> Resolver el sistema anterior con una tolerancia $\epsilon = 3\%$
 
-$X_1 = \frac{5+ 2X_2 + X_3}{8}$, $X_2 = \frac{2 + 2X_1 + 4X_3 + X_4}{9}$, $X_3 = \frac{1+X_1 + 3X_2 + X_4 + 2X_5}{7}$
-
-$X_4 = \frac{1 + 4X_2 + 2X_3 + 5X_5}{12}$, $X_5 = \frac{5 + 7X_3 +3X_4}{15}$
+$X_1 = \frac{5+ 2X_2 + X_3}{8}$, $X_2 = \frac{2 + 2X_1 + 4X_3 + X_4}{9}$, $X_3 = \frac{1+X_1 + 3X_2 + X_4 + 2X_5}{7}$, $X_4 = \frac{1 + 4X_2 + 2X_3 + 5X_5}{12}$, $X_5 = \frac{5 + 7X_3 +3X_4}{15}$
 
 | N°   | $X_1$    | $X_2$    | $X_3$    | $X_4$    | $X_5$    | $\epsilon_a X_1$ |
 | ---- | -------- | -------- | -------- | -------- | -------- | ---------------- |
