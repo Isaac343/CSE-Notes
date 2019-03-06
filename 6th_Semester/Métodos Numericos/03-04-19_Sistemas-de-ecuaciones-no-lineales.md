@@ -1,3 +1,8 @@
+---
+layout: note
+title: Sistema de ecuaciones no lineales
+subject: Ḿétodos numericos
+---
 <small>*Métodos Numéricos - Lunes 04, febrero 2019*</small>
 
 # Sistemas de ecuaciones no lineales
@@ -29,7 +34,7 @@ F(x) = 0
 $$
 Las funciones $f_1, f_2, ..., f_n$ son las funciones coordenadas de $F$.
 
-Por ejemplo, el sistema 
+Por ejemplo, el sistema
 $$
 5x_1^2 - x_1^2 = 0
 $$
@@ -38,7 +43,7 @@ $$
 x_2 - 0.25(\sin{x-1} + \cos{x_2}) = 0
 $$
 
-*Nota, se trata de un sistema de 2 x 2*.Este sistema puede expresarse como: 
+*Nota, se trata de un sistema de 2 x 2*.Este sistema puede expresarse como:
 $$
 f_1 (x_1, x_2)= 5x_1^2 - x_2^2 = 0
 $$
@@ -55,11 +60,11 @@ $$
 
 ## Puntos fijos para funciones de varias variables
 
-Dado un sistema no lineal de $n$ ecuaciones con $n$ incógnitas $F(x) = 0$, el método de punto fijo para este sistema consiste en transformar dicho sistema en otro equivalente del tipo $x = G(x)$. 
+Dado un sistema no lineal de $n$ ecuaciones con $n$ incógnitas $F(x) = 0$, el método de punto fijo para este sistema consiste en transformar dicho sistema en otro equivalente del tipo $x = G(x)$.
 
 <span style='color:#02c3a0; font-weight:bold'>Ejemplo</span>
 
-Se resuelve la primera ecuación para una variable, despejando una incógnita ($x_1$). 
+Se resuelve la primera ecuación para una variable, despejando una incógnita ($x_1$).
 $$
 5x_1^2 - x_2^2 = 0
 \space
@@ -97,4 +102,3 @@ Una forma de acelerar la convergencia consiste en usar las estimaciones mas reci
 | 2    | 0.116243 | 0.270598 | 61.52                 |
 | 3    | 0.121015 | 0.271083 | 3.94                  |
 | 4    | 0.121232 | 0.271104 | 0.1789                |
-

@@ -1,8 +1,13 @@
+---
+layout: note
+title: Matrices especiales
+subject: Ḿétodos numericos
+---
 # Matrices especiales
 
 una matriz a bandas en la que todos sus elementos son 0 con excepción de una banda centrada sobre la diagonal principal.
 
-Las dimensiones de un sistema a bandas se cuantifica mediante 2 parámetros: el ancho de banda (*BW*) y el ancho de media banda(*HBW*). Estos 2 valores se relacionan mediante 
+Las dimensiones de un sistema a bandas se cuantifica mediante 2 parámetros: el ancho de banda (*BW*) y el ancho de media banda(*HBW*). Estos 2 valores se relacionan mediante
 $$
 \left(\begin{array}{cc}
 BW & HBW & 0\\
@@ -22,7 +27,7 @@ $$
 \left(\begin{array}{cc}
 x_1\\ x_2\\ x_3\\ x_4\\ x_5\\
 \end{array}\right)
-= 
+=
 \left(\begin{array}{cc}
 5\\ 2\\ 1\\ 1\\ 5\\
 \end{array}\right)
@@ -43,6 +48,3 @@ $X_4 = \frac{1 + 4X_2 + 2X_3 + 5X_5}{12}$, $X_5 = \frac{5 + 7X_3 +3X_4}{15}$
 | 5    | 0.991539 | 1.021644 | 1.151342 | 1.041347 | 1.078896 | 3.20             |
 | 6    | 1.024329 | 1.077264 | 1.207894 | 1.093277 | 1.115673 | 3.20             |
 | 7    | 1.045303 | 1.112829 | 1.244059 | 1.126483 | 1.139191 | 2.01             |
-
-
-

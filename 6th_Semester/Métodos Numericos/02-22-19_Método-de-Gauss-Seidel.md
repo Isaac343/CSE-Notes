@@ -1,3 +1,8 @@
+---
+layout: note
+title: Método de Gauss-Seidel
+subject: Ḿétodos numericos
+---
 <small>*Métodos numericos - Viernes 22, febrero 2019*</small>
 
 # Método de Gauss - Seidel
@@ -19,7 +24,7 @@ $$
 -4c_1 - c_2 + 12c_3 = 2400
 $$
 
-Despejando: 
+Despejando:
 $$
 c_1 = \frac{3300 + 3c_2 + c_3}{15}
 $$
@@ -51,7 +56,7 @@ https://docs.google.com/spreadsheets/d/1NfFXnyah1tTMkC2kdGf5kdm6FiiP04M-iub4Fxgv
 
 ## Relajación
 
-Es una ligera modificación al método de Gauss-Seidel para mejorar la convergencia. Después de que se calcula cada nuevo valor de $x$, ese valor se modifica mediante un promedio ponderado de los resultados de las iteraciones anterior y actual: 
+Es una ligera modificación al método de Gauss-Seidel para mejorar la convergencia. Después de que se calcula cada nuevo valor de $x$, ese valor se modifica mediante un promedio ponderado de los resultados de las iteraciones anterior y actual:
 $$
 X_i^{nuevo} = \lambda X_i^{nuevo} + (1 - \lambda) X_i^{anterior}
 $$
@@ -79,7 +84,7 @@ La elección de un valor adecuado de $\lambda$ es especificado por el problema y
 
 Use el método de Gauss-Seidel para
 
-a) sin relajación 
+a) sin relajación
 
 b) con relajación($\lambda = 1.2$)
 
@@ -109,7 +114,7 @@ $$
 -3x_1 -x_2 + 7x_3 = -34
 $$
 
-Tras despejar las ecuaciones: 
+Tras despejar las ecuaciones:
 $$
 X_1 = \frac{-20 - X_2 + 2X_3}{-8}
 $$
@@ -143,4 +148,3 @@ Sin relajación
 | 3    | 4.004659 | 7.991680 | -1.999192 | 2.03         |
 | 4    | 3.998758 | 7.999451 | -2.000611 | 0.14         |
 | 5    | 4.000084 | 8.000130 | -1.999945 | 0.033        |
-

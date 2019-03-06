@@ -1,7 +1,7 @@
 ---
-
 layout: note
 title : Método de solución de sistemas de ecuaciones
+subject: Ḿétodos numericos
 ---
 # Unidad 2
 <small>*Lunes 18, febrero 2019  
@@ -81,7 +81,7 @@ $$
 
 <span style='color:#23f453; font-weight:bold'>Ejercicio 6.</span>
 
-Resuelve el siguiente sistema de ecuaciones con el método de *Jacobi* para $\epsilon = 5 \%$ 
+Resuelve el siguiente sistema de ecuaciones con el método de *Jacobi* para $\epsilon = 5 \%$
 
 $15c_1 - c_2 - c_3 = 3300$
 
@@ -109,7 +109,3 @@ $$
 |  2   | 237.777777 | 170        | 278.888888 | 7.476635     |
 |  3   | 249.925925 | 199.259259 | 293.425925 | 4.860699     |
 |      |            |            |            |              |
-
-
-
-

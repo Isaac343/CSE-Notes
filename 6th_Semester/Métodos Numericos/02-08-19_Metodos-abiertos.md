@@ -1,6 +1,7 @@
 ---
 layout: note
 title : Métodos abiertos
+subject: Ḿétodos numericos
 ---
 <small>*Métodos numéricos -  Viernes 8, febrero 2019  
 Apunte*</small>

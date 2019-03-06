@@ -118,5 +118,39 @@ $$
 \end{array}\right)
 $$
 
+<small>Martes 5, febrero 2019</small>
+$$
+\left(\begin{array}{cc}
+1 & 0 & x\\
+0 & 1 & y\\
+0 & 0 & 1\\
+\end{array}\right)
+*
+\left(\begin{array}{cc}
+S_x & 0 & 0\\
+0 & S_y & 0\\
+0 & 0 & 1\\
+\end{array}\right)
+*
+\left(\begin{array}{cc}
+1 & 0 & -x\\
+0 & 1 & -y\\
+0 & 0 & 1\\
+\end{array}\right)
+=
+\left(\begin{array}{cc}
+S_x & 0 & x(1-S_x)\\
+0 & S_y & y(1-S_y)\\
+0 & 0 & 1
+\end{array}\right)
+$$
 
+$$
+T(x, y) * S(S_x, S_y) * T(-x, -y) = S(x, y, S_x, S_y)
+$$
 
+### Propiedades de concatenación
+
+La multiplicación de  matrices es asociativa. Para tres matrices cualesquiera A, B, C, el producto matricial $(A*B*C)$ se puede llevar a cabo al multiplicar $A*B$ y $A(B*C)$ Por lo tanto podemos evaluar los productos matriciales al usar una agrupación asociativa ya sea de izquierda a derecha o de derecha a izquierda.
+
+Por otro lado, los productos de la transformación tal vez no sean conmutativos en general, el producto matricial $A*B$ no es igual que $B*A$. Esto significa que si queremos trasladar y girar un objeto, debemos ter cuidado del sentido en que se evalúa la matriz compuesta. Para algunos casos especiales, cómo una secuencia de transformaciones, todas de la misma clase, la multiplicación de las matrices de transformación es conmutativa por ejemplo: "*Se podrían realizar dos rotaciones sucesivas en cualquier sentido y la posición final sería la misma*". Esta propiedad conmutativa se aplica también para 2 traslaciones sucesivas o 2 escalaciones sucesivas. Otro par conmutativo de operaciones es la escalación y rotación uniforme

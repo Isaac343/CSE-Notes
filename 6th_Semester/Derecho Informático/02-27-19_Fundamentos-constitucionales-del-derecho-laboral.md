@@ -134,3 +134,24 @@ Es la cantidad de trabajo que recibe el trabajador a cambio de un tiempo de trab
 -  Mínimo. La cantidad mínima de dinero establecida por la ley de un país determinado que debe pagarse a un trabajador a cambio de un periodo de trabajo contemplado en horas, días o en un mes.
 
 **Objetivos del salario** Los objetivos que la remuneración busca conseguir son los siguientes. Busca valorar monetariamente el desempeño del trabajo por parte del empleado. Es un método utilizado para motivar a los trabajadores dado que es una parte esencial para el desarrollo de sus vidas. El salario es método muy poderoso de negociación entre trabajadores y empleadores,  y muy utilizado a la hora de retener a determinados empleados dentro de a empresa. 
+
+### Terminación de las regresiones laborales
+
+Es un concepto jurídico de carácter laboral que tiene como función disolver las funciones de trabajo y puede solicitarse por mutuo conocimiento o por resultado de un hecho que haga imposible continuar con las actividades laborales. La ley federal de trabajadores establece las disposiciones donde señala las causas que dan lugar a la terminación, siendo estas las siguientes: 
+
+-  Mutuo consentimiento. Siempre y cuando este libre de vicios dolo o dolencia.
+-  Muerte del trabajador. 
+-  Incapacidad física o mental del trabajador, que haga imposible la prestación del trabajo.
+-  Concurso o quiebra legalmente declarado. 
+-  Muerte del patrón.
+
+**Formas de terminación de la relación laboral**
+
+-  Despido. Es la acción a través de la cual el empleador de a por finalizada unilateralmente el contrato laboral con su empelado. Dividido en 2: 
+   -  Despido justificado. Cuando el trabajador ha incurrido en alguna de las siguientes faltas: Falta de conducta y moral en el trabajo, injuria o falta grave al respeto, inconsideración al patrón o patrona o los miembros de su familia que vivan con el o ella. Hecho intencional o negligencias que afecten a la seguridad o higiene del trabajo. Abandono del trabajo. Acosos laboral o sexual.
+   -  Despido injustificado. Cuando se realiza sin que el trabajador haya incurrido en un acto causal que justifique su despido, o cuando el patrón ha incurrido en una causal del articulo 80 incluido un despido indirecto.
+-  Retiro.
+   -  Retiro justificado. Cuando el patrón a incurrido en una de las siguientes causales: Falta de probidad, cualquier acto inmoral en ofensa al trabajador o trabajadora o a miembros que iban con ella o con el, acoso sexual, cualquier acto constitutivo de un despido indirecto, cualquier acto que constituya falta grave a las obligaciones que le impone la relación de trabajo.
+-  Voluntad común de las partes. Acuerdo entre el patrón y el trabajador de exponer fin a la relación de trabajo.
+-  Causa ajena a la voluntad de las partes. Cuando ninguno (ni patrón ni trabajador) tiene previsto o planificado unilateralmente o bilateralmente  terminar la relación de trabajo pero por otras razones concluye la relación de trabajo. Como la suspensión por mas de 12 meses por accidente o enfermedad, muerte del trabajador. Caso de fuerza mayor. Cierre o quiebre de la empresa, muerte del patrón.
+
