@@ -102,3 +102,92 @@ Una forma de acelerar la convergencia consiste en usar las estimaciones mas reci
 | 2    | 0.116243 | 0.270598 | 61.52                 |
 | 3    | 0.121015 | 0.271083 | 3.94                  |
 | 4    | 0.121232 | 0.271104 | 0.1789                |
+
+<small>Lunes 11, marzo 2019</small>
+
+<span style="color:#23f453; font-weight:bold;">Ejercicio 10.</span> Resuelva el sistema de ecuaciones no lineales.
+$$
+3X_1 - \cos{x_2 x_3} - \frac{1}{2} = 0
+$$
+
+$$
+x_1^2 - 81 (x_2+ 0.1)^2 + \sin{x_3} + 1.06 = 0
+$$
+
+$$
+e^{-x_1 x_2} +20x_3+ \frac{10 \pi - 3}{3} = 0
+$$
+
+Use el vector inicial $x = (0.1, 0.1, -0.1)$ con 5 iteraciones (Jacobi). Repita el ejercicio usando convergencia acelerada (Gauss-Seidel).
+$$
+x_1 = \frac{\frac{1}{2} + \cos{x_2 x_3}}{3}
+$$
+
+$$
+x_2 =\sqrt{\frac{-x_1^2 - \sin{x_3} - 1.06}{-81}} - 0.1
+$$
+
+$$
+x_3 = \frac{-e^{-x_1 x_2} - \frac{10 \pi - 3}{3}}{20}
+$$
+
+
+
+Método de Jacobi
+
+| N°   | $X_1$    | $X_2$    | $X_3$     | $\epsilon_a\space de\space X_1$ |
+| ---- | -------- | -------- | --------- | ------------------------------- |
+| 0    | 0.1      | 0.1      | -0.1      | -                               |
+| 1    | 0.499983 | 0.009441 | -0.523101 | 79.99                           |
+| 2    | 0.499996 | 0.000026 | -0.523363 | 0.002                           |
+| 3    | 0.5      | 0.000012 | -0.523598 | 0.0008                          |
+| 4    | 0.5      | 0.000000 | -0.523598 | 0.000000                        |
+| 5    | 0.5      | 0.000000 | -0.523599 | 0.000000                        |
+
+Método de Gauss-Seidel
+
+| N°   | $X_1$    | $X_2$    | $X_3$     | $\epsilon_a\space de\space X_1$ |
+| ---- | -------- | -------- | --------- | ------------------------------- |
+| 0    | 0.1      | 0.1      | -0.1      | -                               |
+| 1    | 0.499983 | 0.022230 | -0.523046 | 79.99                           |
+| 2    | 0.499999 | 0.022231 | -0.523046 | 0.003235                        |
+| 3    | 0.499977 | 0.000028 | -0.523598 | 0.004307                        |
+| 4    | 0.5      | 0.000000 | -0.523599 | 0.004600                        |
+| 5    | 0.5      | 0.000000 | -0.523599 | 0.000000                        |
+
+
+## Método de Newton
+
+Se define la matriz *Jacobiana* $J(x)$ como 
+$$
+J(x) = 
+\left(\begin{array}{cc}
+\frac{\part{f_1}}{\part{x_1}}(x) & \frac{\part{f_1}}{\part{x_2}}(x) & \frac{\part{f_1}}{\part{x_3}}(x) \\
+\frac{\part{f_2}}{\part{x_1}}(x) & \frac{\part{f_2}}{\part{x_2}}(x) & \frac{\part{f_2}}{\part{x_3}}(x) \\
+\frac{\part{f_3}}{\part{x_1}}(x) & \frac{\part{f_3}}{\part{x_2}}(x) & \frac{\part{f_3}}{\part{x_3}}(x)
+\end{array}\right)
+$$
+Por ejemplo, para el sistema anterior se tiene:
+$$
+f_1 = 3x_1 - cos(x_2 x_1) - \frac{1}{2} \\ 
+f_2 = x_1^2 - 81(x_2 + 0.1)^2 + \sin{x_3} + 1.06 \\
+f_3 = e^{-x_1 x_2} + 20x_3 + \frac{10\pi + 3}{3}
+$$
+
+$$
+\frac{\part{f_1}}{\part{x_1}} = 3 \space\space\space \frac{\part{f_1}}{\part{x_2}} = x_3\sin{x_2 x_3} \space\space\space \frac{\part{f_1}}{\part{x_3}} = x_2\sin{x_2 x_3}\\
+\frac{\part{f_2}}{\part{x_1}} = 2x_1 \space\space\space \frac{\part{f_2}}{\part{x_2}} = -162(x_2 + 0.1) \space\space\space \frac{\part{f_2}}{\part{x_3}} = \cos{x_3}\\
+\frac{\part{f_3}}{\part{x_1}} = -x_2 e^{-x_1x_2} \space\space\space \frac{\part{f_3}}{\part{x_2}} = -x_1 e^{-x_1x_2} \space\space\space \frac{\part{f_3}}{\part{x_3}} = 20
+$$
+
+Obtenemos
+$$
+J = 
+\left(\begin{array}{cc}
+3 & x_3\sin{x_2x_3} & x_2\sin{x_2x_3}\\
+2x_1 & -162(x_2 + 0.1) & \cos{x_3}\\
+-x_2e^{-x_1x_2} & -x_1e^{-x_1x_2} & 20 
+\end{array}\right)
+$$
+
+
