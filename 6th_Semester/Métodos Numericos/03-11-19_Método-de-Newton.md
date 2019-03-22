@@ -1,12 +1,16 @@
-
+---
+layout: note
+title : Método de Newton-Rapson E. no lineales
+subject: Ḿétodos numericos
+---
 
 <small>Lunes 11, marzo 2019</small>
 
 ## Método de Newton-Rapson para sistemas de ecuaciones no lineales
 
-Se define la matriz *Jacobiana* $J(x)$ como 
+Se define la matriz *Jacobiana* $J(x)$ como
 $$
-J(x) = 
+J(x) =
 \left(\begin{array}{cc}
 \frac{\part{f_1}}{\part{x_1}}(x) & \frac{\part{f_1}}{\part{x_2}}(x) & \frac{\part{f_1}}{\part{x_3}}(x) \\
 \frac{\part{f_2}}{\part{x_1}}(x) & \frac{\part{f_2}}{\part{x_2}}(x) & \frac{\part{f_2}}{\part{x_3}}(x) \\
@@ -28,7 +32,7 @@ $$
 
 Obtenemos
 $$
-J = 
+J =
 \left(\begin{array}{cc}
 3 & x_3\sin{x_2x_3} & x_2\sin{x_2x_3}\\
 2x_1 & -162(x_2+0.1) & \cos{x_3}\\
@@ -49,7 +53,7 @@ $$
 \begin{bmatrix}
 Y_1\\ Y_2 \\ Y_3
 \end{bmatrix}
-= 
+=
 \begin{bmatrix}
 3x_1 - cos(x_2 x_1) - \frac{1}{2} \\
 x^2_1 - 81(x_2 + 0.1)^2 + \sin{x_3} + 1.06\\
@@ -60,7 +64,7 @@ $$
 
 Se hace uso del vector incial $X = [\ 0.1, 0.1, -0.1\ ]​$
 
-Primera iteración: 
+Primera iteración:
 $$
 \begin{bmatrix}
 3 & 0.001 & 0.001\\
