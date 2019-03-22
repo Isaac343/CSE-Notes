@@ -43,7 +43,9 @@ Se obtiene el sistema:
 $$
 [J(x) \ Y(x)] = -F(x)
 $$
-Para obtener el vector Y se debe despejar, siendo así que $J(x)​$ pasa a ser su matriz inversa. (*Si la matriz Jacobiana tiene inversa o el determinante es distinto de 0, entonces el sistema SI tiene solución*).
+<span style="color:#23f453; font-weight:bold;">Ejercicio 11.</span>
+
+Para obtener el vector Y se debe despejar, siendo así que $J(x)$ pasa a ser su matriz inversa. (*Si la matriz Jacobiana tiene inversa o el determinante es distinto de 0, entonces el sistema SI tiene solución*).
 $$
 \begin{bmatrix}
 3 & x_3\sin{x_2x_3} & x_2\sin{x_2x_3}\\
