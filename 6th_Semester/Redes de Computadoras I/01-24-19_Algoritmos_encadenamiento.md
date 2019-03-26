@@ -1,7 +1,9 @@
 <!-- Enrutamiento en entornos mixtos de medios de lan -->
+
 # Algoritmos de enrutamiento
 
-##Definición
+## Definición
+
 El **enrutamiento** se puede definir como un proceso mediante el cual tratamos de encontrar un camino entre 2 puntos de una red, teniendo el nodo de origen y el nodo de destino. Cabe aclarar que para esta definición *camino*, hace referencia a varios caminos, el mejor o los mejores para llegar de 1 a N puntos.  
 
 **Mejor ruta.**  Es aquella que cumple con las siguientes condiciones:
