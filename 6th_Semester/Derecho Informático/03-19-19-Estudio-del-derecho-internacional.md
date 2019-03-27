@@ -33,3 +33,4 @@ Los presupuestos que dan fundamento al origen de esta disciplina jurídica son l
 -  Es un hecho positivo. Sus normas se encuentran en diversos preferentemente en los cpod
 -  Contiene un elemento.Es decir el termino extrangerio dentro de la relación.
 -  ForumShopping. Consiste en la práctica de los abogados de plantear la solución de sus controversias internacionales ante el tribunal que competa y que a tenor de la ley aplicable dará la respuesta mas favorable a sus intereses.
+
