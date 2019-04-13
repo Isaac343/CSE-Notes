@@ -14,3 +14,4 @@ subject: Métodos numericos
 $$
 \frac{\Delta y}{\Delta x} = \frac{f(x_i + \Delta x) - f(x_i)}{\Delta x}
 $$
+
