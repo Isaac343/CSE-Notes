@@ -2,7 +2,7 @@
 
 # Esqueletos de encadenamiento
 
-El encadenamiento es una técnica conductual que se enmarca en el paradigma del aprendizaje operante. Este se utiliza para generar nuevas cadenas de conducta  a partir de otras conductas que ya se encuentran en el repertorio del sujeto. 
+El encadenamiento es una técnica conductual que se enmarca en el paradigma del aprendizaje operante. Este se utiliza para generar nuevas cadenas de conducta a partir de otras conductas que ya se encuentran en el repertorio del sujeto. 
 
 El encadenamiento principalmente se usa para enseñar habilidades básicas a niños con necesidades especiales, como poner la ropa o asearse sin ayuda.
 
