@@ -15,7 +15,7 @@ La guía de fibra es un vidrio ultra puro o un cable plástico. El  receptor inc
 
 Acoplando impedancias y limitando la amplitud de la señal o en  pulsos digitales. El conversor de voltaje a corriente sirve como  interfase eléctrica entre los circuitos de entrada y la fuente de luz. 
 
-La fuente de luz puede ser un diodo emisor de luz [LED](https://www.ecured.cu/LED)  o un diodo de inyección láser ILD, la cantidad de luz emitida es  proporcional a la corriente de excitación, por lo tanto el conversor  voltaje a corriente convierte el voltaje de la señal de entrada en una  corriente que se usa para dirigir la fuente de luz. La conexión de  fuente a fibra es una interfase mecánica cuya función es acoplar la  fuente de luz al cable. 
+La fuente de luz puede ser un diodo emisor de luz LED o un diodo de inyección láser ILD, la cantidad de luz emitida es  proporcional a la corriente de excitación, por lo tanto el conversor  voltaje a corriente convierte el voltaje de la señal de entrada en una  corriente que se usa para dirigir la fuente de luz. La conexión de  fuente a fibra es una interfase mecánica cuya función es acoplar la  fuente de luz al cable. 
 
 La fibra óptica consiste de un núcleo de fibra de vidrio o  plástico, una cubierta y una capa protectora. El dispositivo de  acoplamiento del detector de fibra a luz también es un acoplador  mecánico. 
 
@@ -25,7 +25,7 @@ El detector de luz generalmente es un diodo PIN o un APD (fotodiodo de avalancha
 
 El conector SC (Set and Connect) es un conector de inserción directa que suele utilizarse en conmutadores Ethernet de tipo Gigabit. El conector ST (Set and Twist) es un conector similar al SC, pero  requiere un giro del conector para su inserción, de modo similar a los conectores coaxiales.
 
-| FC                                  | Trab                                                         |
+| FC                                  | Descripción                                                  |
 | ----------------------------------- | ------------------------------------------------------------ |
 | FC                                  | Transmisión de datos y en telecomunicaciones                 |
 | FDDI                                | Redes de fibra óptica                                        |
