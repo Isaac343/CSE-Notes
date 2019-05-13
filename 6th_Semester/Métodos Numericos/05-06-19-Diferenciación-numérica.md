@@ -40,7 +40,7 @@ $$
 
 Calcule la aproximación de la primera derivada de la función en el punto indicado.
 
-$ f(x) = x\cos{x} - x^2 \sin{x}​$ en $x = 3​$
+$ f(x) = x\cos{x} - x^2 \sin{x}$ en $x = 3$
 
 | i    | $x_i$ | $f(x_i)$  |
 | ---- | ----- | --------- |
@@ -51,15 +51,15 @@ $ f(x) = x\cos{x} - x^2 \sin{x}​$ en $x = 3​$
 | 5    | 3.2   | -2.596792 |
 |      |       |           |
 
-**Diferencias hacia adelante** $f'(x_i) = \frac{x_{i+1} - x_i}{h}​$
+**Diferencias hacia adelante** $f'(x_i) = \frac{x_{i+1} - x_i}{h}$
 $$
 f'(3) = \frac{-3.496909 - (-4.240058)}{0.1} = 7.431490
 $$
-**Diferencias hacia atrás** $f'(x_i) = \frac{x_{i-1} - x_i}{h}​$
+**Diferencias hacia atrás** $f'(x_i) = \frac{x_{i-1} - x_i}{h}$
 $$
 f'(3) = \frac{-4.230058 - (-4.827866)}{0.1} = 5.878080
 $$
-**Diferencias centradas** $f'(x_i) = \frac{x_{i+1} - x_{i-1}}{h}​$
+**Diferencias centradas** $f'(x_i) = \frac{x_{i+1} - x_{i-1}}{h}$
 $$
 f'(3) = \frac{-3.496909 - (-4.827866)}{0.1} = 6.654785
 $$
@@ -87,24 +87,21 @@ $f(x) = (\cos{3x})^2 -e^{2x}$ en $x= -2.3$ con h= 0.1
 
 
 
--  **Diferencias hacia adelante** $f'(x_i) = \frac{-f(x_{i+2}) + 4f(x_{i+1}) - 3f x_i}{2h}​$
+-  **Diferencias hacia adelante** $f'(x_i) = \frac{-f(x_{i+2}) + 4f(x_{i+1}) - 3f x_i}{2h}$
    $$
    f(-2.3) = \frac{-(0.984722) + 4(0.890665) - 3(0.655356)}{2(0.1)} = 3.059350
    $$
    
-
 -  **Diferencias hacia atrás** $f'(x_i) = \frac{3f(x_i) - 4f(x_{i-1}) + f(x_{i-2})}{2h}$
    $$
    f(-2.3) = \frac{3(0.655356) - 4(0.361862) + (0.113418)}{2(0.1)} = 3.160190
    $$
    
-
 -  **Diferencias centralizadas** $f'(x_i) = \frac{-f(x_{i+2}) + 8(x_{i+1}) - 8(x_{i-1}) + f(x_{i-2})}{12h}$
    $$
    f(-2.3) = \frac{-(0.984722) + 8(0.890665) - 8(0.361862) + (0.113418)}{12(0.1)} =2.799267
    $$
    
-
 -  **Derivada exacta**
    $$
    f'(x) = 2\cos{3x} (-3\sin{3x}) -2e^{2x}\\
@@ -112,3 +109,4 @@ $f(x) = (\cos{3x})^2 -e^{2x}$ en $x= -2.3$ con h= 0.1
    f'(-2.3) = 2.810983
    $$
    
+

@@ -52,7 +52,14 @@ Es un protocolo de nivel de aplicación según el modelo OSI. Se utiliza para si
 
 -  También se pueden compartir a través de la red dispositivos de almacenamiento como disqueteras, CD-ROM y unidades ZIP. Esto puede reducir la inversión en dichos dispositivos y mejorar el aprovechamiento del hardware existente en la organización.
 
-## DDS
+## DDS - Data Distribution Service 
 
+aSe trata de un middleware de tipo publish/subscribe en computación distribuida
 
+DDS ha sido creado en respuesta a la necesidad por parte de la industria de estandarizar sistemas centrados en datos.
+
+La especificación DDS describe dos niveles de interfaces: 
+
+-  Una **DCPS** (**D**ata-**C**entric **P**ublish-**S**ubscribe)  a nivel inferior que tiene por objeto hacer un reparto de la  información de forma eficiente a los receptores apropiados.
+-  Una capa superior opcional **DLRL** (**D**ata **L**ocal **R**econstruction **L**ayer) que permite una integración simple de DDS en la capa de aplicaciones.
 

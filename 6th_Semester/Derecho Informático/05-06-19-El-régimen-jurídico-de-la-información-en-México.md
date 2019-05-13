@@ -121,3 +121,112 @@ Se trata de la garantía o la facultad de control de la propia información fren
 -  *"Nadie sera objeto de injerencias arbitrarias o ilegales en su vida privada. Su familia, su domicilio o su correspondencia, ni de ataques ilegales a su honra y reputación."*
 -  *"Toda persona tiene derecho a la protección de la ley contra esas injerencias o esos ataques."*
 -  *"El convenio 108 para la protección de las personas con respecto al tratamiento automatizado de datos de carácter personal suscrito en 1981 es el primer instrumento vinculatorio de carácter internacional en materia de protección de datos."*
+
+
+
+<small>Miércoles 8, mayo 2019</small>
+
+## Tipos de archivos
+
+Estos archivos pueden ser dependiendo de su contenido, 
+
+-  Archivos públicos. Manejados por el estado
+-  Archivos privados. Manejados por empresas privadas y manuales si son procesados en forma manual.
+-  Automáticos. Son aquellos procesados de manera automática por personas físicas ya sean residentes o no en un determinado país, o personas morales.
+
+Cabe mencionar que no todos los archivos están sujetos a una regulación jurídica.
+
+## Principales derechos y excepciones
+
+Es evidente que si se habla de una regulación jurídica esta engendra a su vez determinados derechos y excepciones. Este problema por su misma singularidad motiva así mismo derechos muy especiales entre los que se pueden contar los siguientes: 
+
+-  Derecho de acceso. Es aquel que permite a los interesados conocer las instituciones y la información que poseen sobre su persona. 
+-  Derecho de rectificación. Dicho derecho permite solicitar al interesado una modificación en los términos de alteración o ampliación o una supresión o cancelación de aquellos datos referidos a su persona que considere inexactos o irrelevantes. 
+-  Derecho de uso conforme al fin. El interesado puede exigir que su información nominativa sea destinada para los objetivos por los cuales se proveyó, es decir, si era de índole administrativo que no trasciende a niveles mas alla de los planteados en un principio
+-  Derehco para la prohibición de interconeccion de datos. Una base de datos administrativa no podrá ser objeto de consulta por otra isntancia fiscal o cemrcial que no sea aquella a la cual se le administraron los datos o información. 
+
+El incumplimiento a estos derechos puede generar diferentes sanciones de índoles administrativa o incluso penal, dependiendo de la circunstancias.
+
+## Delitos Informáticos
+
+Un delito informático o ciberdelito es toda acción antijuidica y culpable  a través de vas informáticas o que tienen como objeto destruir y dañar por medios electrónicos y redes de internet.
+
+### Elementos del delito
+
+Se encuentran los siguientes.
+
+-  Acto
+-  Antijuridico
+-  Culpable 
+-  Inputable
+-  Pena
+
+### Elementos positivos u objetos
+
+Acción tipicidad, antijuricidad, culpabilidad e imputabilidad.
+
+### Elementos negativos o subjetivos
+
+Se encuentran: ausencia de acción, atipicicad, causas de justificación, inculpabilidad y causas de impunidad
+
+### Sujetos del delito
+
+Se pueden encontrar los siguientes:
+
+-  Sujeto activo. Persona física o natural, individuo humano quien delinque o en otras palabras quien ejecuta el hecho o realiza la acción.
+-  Sujeto pasivo. Aquel titular del bien jurídico al que se le ocasiona daño o se lesiona como consecuencia de la comisión del delito.
+
+### Tipos de delito 
+
+Clasificación según el convenio sobre la ciberdelincuencia (Noviembre 1, 2001):
+
+-  Delitos contra la confidencialidad , la integridad  y la disponibilidad de los datos y sistemas informáticos. Acceso ilícito a sistemas informáticos, interpretación ilícita de datos informáticos, interferencia en el funcionamiento de un sistema informático, y  facilitar la comisión de delitos. Algunos son el robo de identidad, la conexión a redes no autorizadas y el uso de spyware y keylogger.
+-  Delitos informáticos. Falsificación informática mediante la introducción, borrado o supresión de datos informáticos. El borrado fraudulento de datos o la corrupción de ficheros son ejemplos de este tipo de delito.
+-  Delitos relacionados con el contenido. Producción, oferta, difusión, adquisición de contenidos de pornografía infantil por medio de un sistema informático o posesión de dichos contenidos en un sistema informático o medio de almacenamiento de datos.
+-  Delitos relacionados con infracciones de la propiedad intelectual y derechos afines. Es decir la copia y distribución de datos informáticos o piratería informática.
+
+Clasificación según la página de la brigada de investigación tecnológica.
+
+-  Ataques contra el derecho a la intimidad. Delito del descubrimiento y revelación de secretos mediante el apoderamiento y difusión de datos reservados registrados en ficheros o soportes informáticos. (Artículos 197 - 201, código penal).
+-  Infracciones a la propiedad intelectual a través de la protección de los derechos del autor. Es esencialmente la copia y distribución no autorizada de programas de ordenador y tenencia de medios a suprimir los dispositivos utilizados para proteger dichos programas (Artículos 270, código penal)
+-  Falsedades. Es el concepto de documento como todo soporte material que exprese o incorpore datos, Excension de la falsificacion de la moneda a las tarjetas de debito y crédito, fabricacion o tenencia de programas de ordenador para la comisión de delitos de falsedad. (Artículos 386 y SS, código penal).
+-  Sabotajes informáticos. Delito mediante daños, de la destrucción o alteración de datos, programas o documentos electrónicos contenidos en redes o sistemas informáticos. (Artículo 273, código penal).
+-  Fraudes informáticos. Delitos de estafa a través de la manipulación de datos o programas para la obtención de un lucro ilícito (Artículos 248 y SS, Código penal).
+-  Amenazas. Son aquellas realizadas a través de cualquier medio de comunicación (Artículo 169 y SS, código penal).
+-  Calumnias e injurias. Cuando se propaguen por cualquier medio de eficacia semejante a la imprenta o la radiodifusión (Artículos 205 y SS,código penal).
+-  Pornografía infantil. Ante los delitos relativos a la prostitución al utilizar a menores incapapaces con fines exhibicionistas o pornográficos. La inducción, promoción, facilitamiento de la prostitución de una persona menor de edad o incapaz (Artículo 187, código penal).
+-  Promoción, venta, distribución,exhibición por cualquier medio de material pornográfico en cuya elaboración hayan sido utilizados menores de edad o incapaces aunque el material tuviera origen en el extranjero o fuera desconocido (Artículo 189, código penal).
+-  Facilitamiento de las conductas anteriores. Es decir aquel que facilite la venta, distribución y exhibición de este material (Artículo 189).
+-  Posesión de dicho material para la realización de dichas conductas (Artículo 189).
+
+### Características de los delitos informáticos
+
+-  Son delitos difíciles de demostrar. En muchos casos es difícil encontrar pruebas.
+-  Actos que pueden llevarse a cabo de forma rápida y sencilla. En ocasiones dichos delitos pueden realizarse en cuestión de segundos utilizando un equipo informático y sin estar presente en el lugar de los hechos.
+-  Tienden a proliferar y evolucionar, lo que complica aun mas la identificación y persecución de los mismos.
+
+### Delitos informáticos como su uso, medio o fin
+
+#### Delitos informaticos como instrumento o medio
+
+Se encuentran en esta categoría,las conductas criminales que se basan de las computadoras como método, medio o símbolo de la comisión del ilícito. Por ejemplo, falsificación de documentos vía computarizada, variación de los activos y pasivos en la situación contable de las empresas.
+
+Planteamiento y simulación de delitos convencionales (robo, homicidio, fraude, etc)
+
+Lectura, sustracción o copiado de información confidencial.
+
+Modificación de datos tanto en la entrada como en la salida.
+
+Aprovechamiento indebido o violación de un código para penetrar un sistema introduciendo instrucciones inapropiadas. 
+
+Uso no autorizado de programas de computo.
+
+Introducción de instrucciones que provoca interrupciones en la lógica del programa.
+
+Alteración del funcionamiento de los sistemas a través de los virus informáticos.
+
+Obtención de información residual impresa en papel luego de la ejecución de trabajos.
+
+Acceso a áreas informatizadas en forma no autorizada.
+
+Intervención en lineas de comunicación de datos o teleproceso.

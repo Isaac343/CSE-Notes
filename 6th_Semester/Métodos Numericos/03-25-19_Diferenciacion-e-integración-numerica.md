@@ -1,5 +1,5 @@
 ---
-layout: note
+slayout: note
 title: Diferenciación e integración numérica
 subject: Métodos numericos
 ---

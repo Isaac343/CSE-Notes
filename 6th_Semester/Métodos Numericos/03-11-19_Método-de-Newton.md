@@ -64,7 +64,7 @@ e^{-x_1x_2} + 20x_3 + \frac{10 \pi - 3}{3}\\
 $$
 
 
-Se hace uso del vector incial $X = [\ 0.1, 0.1, -0.1\ ]​$
+Se hace uso del vector incial $X = [\ 0.1, 0.1, -0.1\ ]$
 
 Primera iteración:
 $$
@@ -83,7 +83,7 @@ Y_1\\ Y_2 \\ Y_3
 $$
 Se obtienen los valores 1.199950, 2.269833, -8.462025 como los resultados de la primer iteración. Al solucionar el sistema se obtiene que $Y_1 = 0.39987$, $Y_2 = -0.08053$, $Y_3 = -0.42152$. Se procede a actualizar los valores de $X$
 
-$X_1 = X_1 + Y_1 \ \rightarrow \ 0.1 + 0.39987 = 0.49987\\ X_2 = X_2 + Y_2 \ \rightarrow 0.1 + -0.08054 = 0.019467 \\ X_3 = X_3+ Y_3 \ \rightarrow -0.1 + -0.42152 = -0.52152​$
+$X_1 = X_1 + Y_1 \ \rightarrow \ 0.1 + 0.39987 = 0.49987\\ X_2 = X_2 + Y_2 \ \rightarrow 0.1 + -0.08054 = 0.019467 \\ X_3 = X_3+ Y_3 \ \rightarrow -0.1 + -0.42152 = -0.52152$
 
 *El proceso puede resumirse en despeje, sustitución del vector en la matriz, creación del sistema, actualización de vector.*
 
