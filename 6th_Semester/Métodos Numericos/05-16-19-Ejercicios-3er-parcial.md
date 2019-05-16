@@ -1,5 +1,5 @@
 ---
-layout: notes
+layout: note
 title: Ejercicios tercer parcial métodos numéricos
 date: 05-16-19
 subject: Métodos numéricos
@@ -178,18 +178,26 @@ $f(x) = (\cos{3x})^2 -e^{2x}$ en $x= -2.3$ con h= 0.1
 | ------ | ---- | ---- | ---- | ---- | ---- | ----- | ----- | ----- | ----- | ----- | ---- |
 | v, m/s | 0    | 34.7 | 61.8 | 82.8 | 99.2 | 112.0 | 121.9 | 129.7 | 135.7 | 140.4 |      |
 
+
+
 a) ¿Que tan lejos viajo el objeto  desde t = 0 hasta t = 28?
 $$
 (28-0) (\frac{0 + 4(34.7 + 82.8 + 112.0) + 2(61.8 + 99.2 121.9) + 129.7}{3(4)}) = 3764.88
 $$
+
+
 b) ¿Cual es la aceleración del objeto a t = 28s?
 $$
 \frac{-(140.4) + 8(135.7) - 8(121.9) + 112}{12(4)} = 1.708333
 $$
+
+
 c) ¿Cual es la aceleración del objeto a t = 0s?
 $$
 \frac{-(61.8) + 4(34.7) - 3(0)}{2(4)} = 9.625 m/s²
 $$
+
+
 
 **II.** Un avión es seguido por radar y se toman datos cada segundo en coordenadas polares $\theta$ y $r$
 
@@ -221,7 +229,6 @@ a = -2.50 - 117.5(-0.0075)^2e_r + (117.5(0.0025))
 a = -2.826250e_r + 12.7375e_{\theta}
 $$
 
-
 **III.** Los siguientes datos se obtuvieron al cargar un gran buque petrolero:
 
 | min              | 0    | 10   | 20   | 30   | 45   | 60   | 75   |
@@ -243,3 +250,4 @@ c) t = 75, V = 1.35
 $$
 \frac{3(1.35) - 4(1.17) + 1.05}{2(15)} = 0.014
 $$
+
