@@ -1,7 +1,7 @@
 ---
 layout: notes
 title: Ejercicios tercer parcial métodos numéricos
-date: 14-12-19
+date: 05-16-19
 subject: Métodos numéricos
 ---
 
