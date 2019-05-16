@@ -211,22 +211,109 @@ Clasificación según la página de la brigada de investigación tecnológica.
 
 Se encuentran en esta categoría,las conductas criminales que se basan de las computadoras como método, medio o símbolo de la comisión del ilícito. Por ejemplo, falsificación de documentos vía computarizada, variación de los activos y pasivos en la situación contable de las empresas.
 
-Planteamiento y simulación de delitos convencionales (robo, homicidio, fraude, etc)
+-  Planteamiento y simulación de delitos convencionales (robo, homicidio, fraude, etc)
 
-Lectura, sustracción o copiado de información confidencial.
+-  Lectura, sustracción o copiado de información confidencial.
 
-Modificación de datos tanto en la entrada como en la salida.
+-  Modificación de datos tanto en la entrada como en la salida.
 
-Aprovechamiento indebido o violación de un código para penetrar un sistema introduciendo instrucciones inapropiadas. 
+-  Aprovechamiento indebido o violación de un código para penetrar un sistema introduciendo instrucciones inapropiadas. 
 
-Uso no autorizado de programas de computo.
+- Uso no autorizado de programas de computo.
 
-Introducción de instrucciones que provoca interrupciones en la lógica del programa.
+-  Introducción de instrucciones que provoca interrupciones en la lógica del programa.
 
-Alteración del funcionamiento de los sistemas a través de los virus informáticos.
+-  Alteración del funcionamiento de los sistemas a través de los virus informáticos.
 
-Obtención de información residual impresa en papel luego de la ejecución de trabajos.
+-  Obtención de información residual impresa en papel luego de la ejecución de trabajos.
 
-Acceso a áreas informatizadas en forma no autorizada.
+-  Acceso a áreas informatizadas en forma no autorizada.
 
-Intervención en lineas de comunicación de datos o teleproceso.
+-  Intervención en lineas de comunicación de datos o teleproceso.
+
+### Como fin u objeto
+
+En esta categoría se enmarcan las conductas criminales que van dirigidas contra las computadoras, accesorios o programas como entidad física como por ejemplo: programación de instrucciones que producen un bloqueo total al sistema, destrucción de programas por cualquier método, daño a la memoria, atentado físico contra la memoria o sus accesorios, sabotaje político o terrorismo en que se destruya o surja un apoderamiento de los centros neurolígicos computarizados , secuestro de soportes magneticos entre los que figuren información valiosa con fines de chantaje (pago de rescate). Por otra parte, existen diversos tipos de delito que pueden ser cometidos y que se sencuentran ligados directamente a acciones ligadas contra los propios sistemas como lo son los siguientes: 
+
+-  acceso no autorizado. Uso ilegitimo de *password* y la entrada de un sistema informático sin la autorización del propietario.
+-  Destrucción de datos. daños causados en la red mediante la introducción de virus, bombas lógicas, entre otros
+-  Infracción al Copyright de la base de datos. Uso no autorizado de información almacenada en una base de datos.
+-  Interceptación de e-mail. Lectura de un mensaje electrónico ajeno.
+-  Estafas electrónicas. A través de compras realizadas haciendo uso de la red.
+-  Transferencias de fondos. Engaños en la realización de este tipo de transacciones.
+
+Por otro lado la red de internet permite dar soporte para la comisión de otro tipo de delitos como son:
+
+-  Espionaje. Acceso no autorizado a sistemas informáticos gubernamentales y de grandes empresas e interceptación de correos electrónicos
+-  Terrorismo. Mensajes anónimos aprovechados por grupos terroristas para pemitir consignas y planes de actuación a nivel internacional.
+-  Narcotráfico. Transmisión de fórmulas para la fabricación de estupefacientes, para lavado de dinero y coordinación de entregas y recogidas.
+
+### Otros delitos
+
+Las mismas ventajas que encuentran en el internet los narcotraficantes pueden ser aprovechadas para otros delitos como: 
+
+-  trafico de armas
+-  proselitismo de sectas
+-  propaganda de grupos extremistas y cualquier otro tipo de delito que pueda ser trasladado de la vida real al ciberespacio o viceversa.
+
+## Legislación internacional sobre delitos informáticos
+
+Aunque los delitos informáticos no están contemplados como un delito especial, existen varias normas relacionadas con este tipo de conductas, las cuales son las siguientes:
+
+-  Ley orgánica de protección de datos de carácter personal.
+-  Ley de servicios de sociedad de la información de comercio electrónico.
+-  Reglamente de medidas de seguridad de los ficheros atumatizados que contengan datos de carácter personal.
+-  Ley general de telecomunicaciones
+-  Ley de propiedad intelectual
+-  Ley de firma electrónica.
+
+### Piratería, espionaje y estafa informática.
+
+**Piratería.** Es aquella que tiene como practica regular la reproduccion, apropiación y distribucion con fines lucrativos y a gran escala de contenidos de los que no poseen permiso o autorización del autor.
+
+#### Tipos
+
+##### Software
+
+-  Falsificación: Venta de material protegido por copyright con la finalidad de imitar el producto. En este caso el software con embalaje es habitual encontrar copias falsificadas de los discos compactos con copias de software, ademas de manuales, tarjetas de registros, etiquetas y elementos de seguridad.
+-  Carga en discos duros. Ocurre cuando una empresa vende equipos nuevos que tiene instalados, copias ilegales de software en los discos duros para que las ofertas resulten mas atractivas.
+-  De usuario final. Cuando una persona reproduce copias de software sin autorización.
+   -  Uso de copia con licencia para instalaciones multiples
+   -  Copias de discos para la instalación de desitribución
+   -  Aprovechamiento de ofertas de actualización sin tener una copia de la versión que se actualizara.
+-  En internet. Cuando se descarga software en internet, en compras de software en linea se aplican las mismas reglas que con aquellas realizadas en formato de disco duro. Las técnicas mas frecuentes son: 
+   -  Sitios web con software disponible con descarga gratuita o mediante el intercambio.
+   -  Sitios que ofrecen softwate en iternet por canales no autorizados
+   -  Redes de punto a punto donde se realizan transferencias no autorizadas de programas protegidos por copyright
+   -  Espionaje informático. El agente de la conducta fisgonea los datos no autorizados en busca de información sigilos que posea valor económico. Tal acción se realiza mediante programas llamados **Spyware**. Los Spyware son programas que constantemente monitorean los pasos del usuario de un computador conectado a la red sin su consentimiento. Los programas tienen la capacidad de apoderarse de informaciones personales del usuario.
+
+-  Música
+-  Vídeo-juegos
+-  películas
+
+### Clasificación de espionaje.
+
+se clasifica en conductas lesivas a la confidencialidad de la información, entre las cuales se tiene:
+
+-  Espionaje informático industrial o comercial. Debe entenderse como la obtención con ánimo de lucro y sin autorización para el tráfico económico dela industria o comercio. Surge allí una seria dificultad para el legislador ante la variedad de comportamientos que encajan en el.
+-  Intrusismo informático. Comportamiento que consiste en la introducción a  sistemas de información o computadoras infligiendo medidas de seguridad destinadas a proteger los datos contenidas en el.
+-  Conductas lesivas a la integridad de la información. La integridad y la información puede resultar afectada gracias al sabotaje informático.
+-  Conductas lesivas a la disponibilidad dela información. Se encuentran también las modalidades de sabotaje informático ( bombas lógicas y virus). afectan la disponibilidad dela información pues un sistema dañado por dichas técnicas queda también fuera de la disponibilidad de que su poseedor.
+
+### Formas de control correctivo y preventivo
+
+Según Laskyll en 2006, el control bajo esta concepción se orienta a procurar todas las comisiones necesarias para que un equipo de trabajo ponga su mejor esfuerzo en pos de lograr los resultados deseados, ya que promueve y fomenta el buen funcionamiento de la organización.
+
+-  Control preventivo. Según Neto en 2008, se realiza para prevenir la ocurrencia de fallos y mantener en un nivel determinado a los equipos y la organización. Se conocen como control preventivo directo o periódico. us actividades están controladas por el tiempo y se basa en la confidencialidad de los equipos.
+-  Control concurrente. Se caracteriza por la continua supervisión durante los procesos, verificado que se cumpla lo establecido en las normas y planeamientos de la organización y minimizando 
+-   de eficiencia.
+
+**Formas de control preventivas**. Una de las formas es educar a las personas para educar una cultura responsable para el uso de la internet, es decir, tratar de que las personas por medio de enseñanza realice un curso responsable y correcto del internet.
+
+-  algoritmos dedicados para hacer claves. Las claves de identificaioens de cualquier tipo se generaran con los algoritmos dedicados, con esto se podra proteger mas la informació, pues estas claves serán mas difíciles de desifrar. Llevar registro sobre los adminstradores de servidores, los responsables de admitir un servidoe de cualqueir tipo quedaran registrados en una base de datos especial, la cual contendra los historiales de sus trabajso.
+-  Retiro de cédulas profesionales. Dada la ocasión en que un experto en computación cometa un delito informático, su cédula sea retirada. Esta medida puede ser tanto correctiva como preventiva.
+-  Registro de acceso a internet. Cualquier persona que accede a internet tenga una cuenta personal con el registro de acciones que realiza en la red.
+
+Análisis del código penal del df y figuras jurídicas en el delito informático
+
+Creación de virus - Milton

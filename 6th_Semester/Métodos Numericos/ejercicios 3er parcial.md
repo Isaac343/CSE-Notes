@@ -170,3 +170,76 @@ $f(x) = (\cos{3x})^2 -e^{2x}$ en $x= -2.3$ con h= 0.1
    f'(-2.3) = 2.810983
    $$
 
+# Derivación
+
+**I**. Se dan los siguientes datos para la velocidad de un objeto como función del tiempo:
+
+| t, s   | 0    | 4    | 8    | 12   | 16   | 20    | 24    | 28    | 32    | 36    |      |
+| ------ | ---- | ---- | ---- | ---- | ---- | ----- | ----- | ----- | ----- | ----- | ---- |
+| v, m/s | 0    | 34.7 | 61.8 | 82.8 | 99.2 | 112.0 | 121.9 | 129.7 | 135.7 | 140.4 |      |
+
+a) ¿Que tan lejos viajo el objeto  desde t = 0 hasta t = 28?
+$$
+(28-0) (\frac{0 + 4(34.7 + 82.8 + 112.0) + 2(61.8 + 99.2 121.9) + 129.7}{3(4)}) = 3764.88
+$$
+b) ¿Cual es la aceleración del objeto a t = 28s?
+$$
+\frac{-(140.4) + 8(135.7) - 8(121.9) + 112}{12(4)} = 1.708333
+$$
+c) ¿Cual es la aceleración del objeto a t = 0s?
+$$
+\frac{-(61.8) + 4(34.7) - 3(0)}{2(4)} = 9.625 m/s²
+$$
+
+**II.** Un avión es seguido por radar y se toman datos cada segundo en coordenadas polares $\theta$ y $r$
+
+| t,s             | 200  | 202  | 204  | 206  | 208  | 210  |
+| --------------- | ---- | ---- | ---- | ---- | ---- | ---- |
+| $\theta$, (rad) | 0.75 | 0.72 | 0.70 | 0.68 | 0.67 | 0.66 |
+| r, m            | 5120 | 5370 | 5560 | 5800 | 6030 | 6240 |
+
+A los 206 segundos utilice diferencias finitas centradass (correspondientes a segundo orden) para encontrar las expresiones vectoriales para la velocidad y la aceleración. La velocidad y aceleración en coordenadas polares son:
+$$
+v = r'e_r + \theta'e_{\theta}\\ 
+a = (r'' - r\theta^2)e_r + (r\theta'' + 2r'\theta')e_{\theta}
+$$
+
+$$
+r' = \frac{6030-5560}{2(2)} = 117.5\\
+\theta' = \frac{0.67-0.70}{2(2)} = -0.0075\\
+r'' = \frac{6030 - 2(5800) + 5560}{(2)^2} = -2.50\\
+\theta'' = \frac{0.67 - 2(0.68) + 0.70}{(2)^2} = 0.0025
+$$
+
+sustituyendo
+$$
+v = r'e_r + r\theta'e_{\theta}\\ 
+v = 117.5e_r + (5800)(-0.0075)e_{\theta}\\
+v = 117.5e_r + - 43.5e_{\theta}\\
+a = (r'' - r\theta^2)e_r + (r\theta'' + 2r'\theta')e_{\theta}
+a = -2.50 - 117.5(-0.0075)^2e_r + (117.5(0.0025))
+a = -2.826250e_r + 12.7375e_{\theta}
+$$
+
+
+**III.** Los siguientes datos se obtuvieron al cargar un gran buque petrolero:
+
+| min              | 0    | 10   | 20   | 30   | 45   | 60   | 75   |
+| ---------------- | ---- | ---- | ---- | ---- | ---- | ---- | ---- |
+| V, 10^6 barriles | 0.4  | 0.7  | 0.77 | 0.88 | 1.05 | 1.17 | 1.35 |
+
+Calcule la tasa de flujo $Q$ (es decir, $dV/dt$) para los incisos del tiempo indicados con un orden de $h^2$.
+
+a) t = 0, V = 0.4
+$$
+\frac{-(0.77) + 4(0.7) - 3(0.4)}{2(10)} = 0.041500
+$$
+b) t = 30, V = 0.8
+$$
+\frac{-(1.17)+4(1.05) - 3(0.88)}{2(15)} = 0.013\\
+\frac{3(0.88) - 4(0.77) + 0.7}{2(10)} = 0.013
+$$
+c) t = 75, V = 1.35 
+$$
+\frac{3(1.35) - 4(1.17) + 1.05}{2(15)} = 0.014
+$$
