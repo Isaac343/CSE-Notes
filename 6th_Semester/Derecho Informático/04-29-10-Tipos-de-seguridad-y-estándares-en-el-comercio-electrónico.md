@@ -1,6 +1,9 @@
-
-
-
+---
+layout: note
+title: Tipos de seguridad y estándares en el comercio electrónico
+date: 04-29-19
+subject: Derecho informático
+---
 
 # Tipos de seguridad y estándares en el comercio electrónico
 

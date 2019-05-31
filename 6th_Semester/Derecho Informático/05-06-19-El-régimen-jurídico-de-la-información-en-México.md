@@ -314,6 +314,12 @@ Según Laskyll en 2006, el control bajo esta concepción se orienta a procurar t
 -  Retiro de cédulas profesionales. Dada la ocasión en que un experto en computación cometa un delito informático, su cédula sea retirada. Esta medida puede ser tanto correctiva como preventiva.
 -  Registro de acceso a internet. Cualquier persona que accede a internet tenga una cuenta personal con el registro de acciones que realiza en la red.
 
-Análisis del código penal del df y figuras jurídicas en el delito informático
+**Control correctivo. **Según *Logan Decker* (2012), se requiere una accion correctiva cuando el desempeño se desvia de manera significativa del estándar de una dirección no favorable. Para evitar que el problema ocurra, dicha opción debe seguirse después del análisis de la causa de la desciavión para que un problema sea controlado en forma eficaz. La acción correctiva debe identificar y tratar con la causa real. 
 
-Creación de virus - Milton
+#### Formas de control correctivas 
+
+Una de la formas es establecer un comite internacional dedicado a los delitos informátios. Esta solución consiste en que los paises se pongan de acuerdo para que se cree un comite internacional el cual se dedique exclusivamente a delitos infromáticos, conformado principalmente por expertos informáticos y en derecho. 
+Otra forma de control es poner gusanos avanzados. Es decir que cada equipo computacional que sea usado para cometer un delito informático sea marcado por un gusano y este equipo quedara desahabilitado para ingresar a internet. 
+
+Las paginas usadas para compra-venta de productos, se les detengan sus actividades al tener una denuncia. Es decir que las páginass dedicadas al e-comerce se desabilitaran al recibir una denuncia fomrnal por parte de un usuario y no se volveran a habilitar hasta que no se le de solución al caso. 
+
