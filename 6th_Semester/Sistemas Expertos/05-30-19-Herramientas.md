@@ -19,7 +19,7 @@ A mediados de los años 80 la Nasa requería de sistemas expertos para el desarr
 
 ### Yes 
 
-El motor de reglas Yes es un proyecto que tuvo su origen en clips pero que fue escrito enteramente en java este se desarrollo durante la década de los 90 en los sand national laboratories que comparte con clips varios conceptos de diseño y similitudes con respecto a la sintaxis así mismo implementa la especificación de referencia JPCB94 
+El motor de reglas Yes es un proyecto que tuvo su origen en clips pero que fue escrito enteramente en java este se desarrollo durante la década de los 90 en los sandia national laboratories que comparte con clips varios conceptos de diseño y similitudes con respecto a la sintaxis así mismo implementa la especificación de referencia JPCB94 
 
 
 
