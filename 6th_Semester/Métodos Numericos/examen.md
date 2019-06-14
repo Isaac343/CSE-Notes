@@ -12,7 +12,7 @@ title: examen
 
 **Nombre:** Isaac Benjamin Espinosa Ramos
 
-**Fecha: **Junio 14, 2019
+**Fecha:** Junio 14, 2019
 
 1.-  Use diferencias dividas de Newton para construir polinomios de interpolación de grado uno, dos y tres con los siguientes datos. Aproxime el valor **f(-1/3)** usando cada uno de los polinomios.
 
