@@ -72,7 +72,7 @@ Segundo grado f(0.18) = -0.508049852
 | 4    | 1.800000 | 1.520471 | -0.294591     |
 | 5    | 2.000000 | 1.461553 | -0.240578     |
 
-![](../../Documents/github/CSE-Notes/fig3.png)
+![](../../fig3.png)
 
 4.Aproxime la solución del problema de valor inicial, utilizando el método de Runge-Kutta de cuarto orden:
 $$
@@ -96,4 +96,4 @@ compare las gráficas de la solución aproximada y verdadera $y(t) = \sqrt{4-3e^
 | 9    | 0.9   | 1.632623 | 0.735679 | 0.690320 | 0.695571     | 0.648997   | 1.632613           |
 | 10   | 1     | 1.701898 | 0.648420 | 0.600666 | 0.606512     | 0.559052   | 1.701870           |
 
-![](../../Documents/github/CSE-Notes/fig4.png)
+![](../../fig4.png)
