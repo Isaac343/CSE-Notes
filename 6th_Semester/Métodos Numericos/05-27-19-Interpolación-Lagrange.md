@@ -1,5 +1,5 @@
 ---
-layout: note
+	layout: note
 date: 05-27-19
 title: Polinomios de interpolación de Lagrange
 subject: Métodos Numericos

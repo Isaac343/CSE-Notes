@@ -1,5 +1,6 @@
 ---
 layout: note
+date: 02-08-19
 title : Métodos abiertos
 subject: Ḿétodos numericos
 ---
